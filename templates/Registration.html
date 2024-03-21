@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Sign Up Form by Colorlib</title>
+
+    <!-- Font Icon -->
+    <link rel="stylesheet" href="/static/Sign_up/fonts/material-icon/css/material-design-iconic-font.min.css">
+
+    <!-- Main css -->
+    <link rel="stylesheet" href="/static/Sign_up/css/style.css">
+</head>
+<body>
+<style>
+    select.form-control:not([size]):not([multiple]) {
+  height: calc(2.0625rem + 4px);
+  width: calc(19.0625rem + 4px);
+}
+
+select{
+  margin: 0;
+  font-family: inherit;
+  font-size: inherit;
+  line-height: inherit;
+     text-transform: none;
+}
+select.form-control:focus::-ms-value {
+  color: #495057;
+  background-color: #FFF;
+}
+</style>
+
+    <div class="main">
+
+        <!--Sign_up  form -->
+        <section class="signup">
+            <div class="container">
+                <div class="signup-content">
+                    <div class="signup-form">
+                        <h2 class="form-title">Sign up</h2>
+                        <form method="POST" class="register-form" id="register-form" action="/user_registration">
+                            <div class="form-group">
+                                <label for="name"><i class="zmdi zmdi-account material-icons-name"></i></label>
+                                <input type="text" name="textfield" id="name" placeholder="Your Name"/>
+                            </div>
+                            <div class="form-group">
+                                <label for="age"><i class="zmdi-calendar "></i></label>
+                                <input type="text" name="textfield2" id="age" placeholder="Your Age"/>
+                            </div>
+                            <div class="col-2">
+                                <div class="input-group">
+                                    <div class="rs-select2 js-select-simple select--no-search">
+                                        <select name="radio" class="form-control">
+                                            <option disabled="disabled" selected="selected">--Gender--</option>
+                                            <option>Male</option>
+                                            <option>Female</option>
+                                            <option>Other</option>
+                                        </select>
+                                        <div class="select-dropdown"></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <label for="place"><i class="zmdi zmdi-my-location"></i></label>
+                                <input type="text" name="textfield3" id="place" placeholder="Your Place"/>
+                            </div>
+                            <div class="form-group">
+                                <label for="post"><i class="zmdi zmdi-local-post-office"></i></label>
+                                <input type="text" name="textfield4" id="post" placeholder="Your Post"/>
+                            </div>
+                            <div class="form-group">
+                                <label for="pin"><i class="zmdi zmdi-calendar"></i></label>
+                                <input type="text" name="textfield5" id="pin" placeholder="Your Pin Number"/>
+                            </div>
+                            <div class="form-group">
+                                <label for="select"><i class="zmdi "></i></label>
+                                 <select name="select" id="select" class="form-control">
+                                     <option>---District---</option>
+                                     <option>Thiruvanandapuram</option>
+                                     <option>Kollam</option>
+                                     <option>Pathanamthitta</option>
+                                     <option>Alappuzha</option>
+                                     <option>Kottayam</option>
+                                     <option>Idukki</option>
+                                     <option>Eranakulam</option>
+                                     <option>Trissur</option>
+                                     <option>Palakkad</option>
+                                     <option>Malappuram</option>
+                                     <option>Kozhikode</option>
+                                     <option>Wayanad</option>
+                                     <option>kannur</option>
+                                     <option>Kasaragod</option>
+      			            	  </select>
+                            </div>
+                            <div class="form-group">
+                                <label for="phone"><i class="zmdi zmdi-phone"></i></label>
+                                <input type="text" name="textfield6" id="phone" placeholder="Your Phone Number"/>
+                            </div>
+                             <div class="form-group">
+                                <label for="email"><i class="zmdi zmdi-email"></i></label>
+                                <input type="text" name="textfield7" id="email" placeholder="Your Email"/>
+                            </div>
+                             <div class="form-group">
+                                <label for="ward"><i class="zmdi zmdi-my-location"></i></label>
+                                <input type="text" name="textfield8" id="ward" placeholder="Your Ward Number"/>
+                            </div>
+                            <div class="form-group">
+                                <label for="username"><i class="zmdi zmdi-account material-icons-name"></i></label>
+                                <input type="text" name="textfield9" id="username" placeholder="Username(email)"/>
+                            </div>
+                            <div class="form-group">
+                                <label for="pass"><i class="zmdi zmdi-lock"></i></label>
+                                <input type="password" name="textfield10" id="pass" placeholder="Password"/>
+                            </div>
+                            <div class="form-group form-button">
+                                <input type="submit" name="signup" id="signup" class="form-submit" value="Register"/>
+                            </div>
+                        </form>
+                    </div>
+                    <div class="signup-image">
+                        <figure><img src="/static/Sign_up/images/signup-image.jpg" alt="sing up image"></figure>
+                  
+                    </div>
+                </div>
+            </div>
+        </section>
+
+       
+
+    </div>
+
+    <!-- JS -->
+    <script src="/static/Sign_up/vendor/jquery/jquery.min.js"></script>
+    <script src="/static/Sign_up/js/main.js"></script>
+</body><!-- This templates was made by Colorlib (https://colorlib.com) -->
+</html>

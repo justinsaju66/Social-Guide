@@ -1,0 +1,70 @@
+{% extends 'Admin/adminheader.html' %}
+{% block body %}
+
+<body>
+<center><div class="container">
+<form action="/add_corporation1" method="post" enctype="multipart/form-data" name="form1" id="form1">
+  <table align="center" cellpadding="5" >
+    <tr>
+      <th scope="row" align="left">Name</th>
+      <td><label for="textfield"></label>
+      <input type="text" name="name" id="textfield" class="form-control" required/></td>
+    </tr>
+    <tr>
+      <th scope="row" align="left">Place</th>
+      <td><input type="text" name="place" id="textfield2" class="form-control" required/></td>
+    </tr>
+    <tr>
+      <th scope="row" align="left">Post</th>
+      <td><input type="text" name="post" id="textfield3" class="form-control" required/></td>
+    </tr>
+    <tr>
+      <th scope="row" align="left">Pin</th>
+      <td><input type="text" name="pin" id="textfield4" class="form-control" required/></td>
+    </tr>
+    <tr>
+      <th scope="row" align="left">District</th>
+      <td><label for="select"></label>
+        <select name="district" id="select" class="form-control">
+          <option>--Select--</option>
+         <option>Thiruvanandapuram</option>
+          <option>Kollam</option>
+          <option>Pathanamthitta</option>
+          <option>Alappuzha</option>
+          <option>Kottayam</option>
+          <option>Idukki</option>
+          <option>Eranakulam</option>
+          <option>Trissur</option>
+          <option>Palakkad</option>
+          <option>Malappuram</option>
+          <option>Kozhikode</option>
+          <option>Wayanad</option>
+          <option>kannur</option>
+          <option>Kasaragod</option>
+      </select></td>
+    </tr>
+    <tr>
+      <th scope="row" align="left">Phone</th>
+      <td><input type="text" name="phone" id="textfield5" class="form-control" required/></td>
+    </tr>
+    <tr>
+      <th scope="row" align="left">Email</th>
+      <td><input type="text" name="email" id="textfield6" class="form-control" required/></td>
+    </tr>
+    <tr>
+      <th scope="row" align="left">Photo</th>
+      <td><label for="fileField"></label>
+      <input type="file" name="photo" id="fileField" class="form-control" required/></td>
+    </tr>
+    <tr>
+      <th scope="row" align="left">No.of wards</th>
+      <td><input type="text" name="no_of_wards" id="textfield7" class="form-control" required/></td>
+    </tr>
+    <tr>
+        <th colspan="2" scope="row"><p align="center"><input type="submit" name="button" id="button" value="Submit" class="btn btn-primary"/></p></th>
+    </tr>
+  </table>
+</form>
+    </div> </center>
+</body>
+{% endblock %}

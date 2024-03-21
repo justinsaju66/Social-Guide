@@ -1,0 +1,22 @@
+{% extends 'clerk/clerkheader.html' %}
+{% block body %}
+
+<body>
+<form id="form1" name="form1" method="post" action="">
+  <table align="center" class="table table-striped" border="3">
+    <tr>
+      <th width="47" scope="col">Sl.No</th>
+      <th width="48" scope="col">Work</th>
+      <th width="47" scope="col">Date</th>
+    </tr>
+      {% for i in value %}
+    <tr>
+      <td>&nbsp;{{ loop.index }}</td>
+      <td>&nbsp;{{ i['work'] }}</td>
+      <td>&nbsp;{{ i['date'] }}</td>
+    </tr>
+      {% endfor %}
+  </table>
+</form>
+</body>
+{% endblock %}

@@ -1,0 +1,24 @@
+{% extends 'Admin/adminheader.html' %}
+{% block body %}
+
+<body>
+<center>
+    <div class="container">
+
+
+<form id="form1" name="form1" method="post" action="/add_dept1">
+  <table align="center">
+    <tr>
+      <th scope="row" align="left">Department</th>
+      <td><label for="textfield"></label>
+      <input type="text" name="department" id="textfield" class="form-control" required/></td>
+    </tr>
+    <tr>
+        <th colspan="2" scope="row"><p align="center" ><p align="center"><input type="submit" name="button" id="button" value="ADD" class="btn btn-primary" /></p></th>
+    </tr>
+  </table>
+</form>
+         </div>
+</center>
+</body>
+{% endblock %}

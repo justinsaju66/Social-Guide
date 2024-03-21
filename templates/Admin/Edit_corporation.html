@@ -1,0 +1,70 @@
+{% extends 'Admin/adminheader.html' %}
+{% block body %}
+
+<body>
+<center><div class="container">
+<form action="/edit_corporation1/{{ value['corp_id'] }}" method="post" enctype="multipart/form-data" name="form1" id="form1">
+  <table>
+    <tr>
+      <th scope="row" align="left">Name</th>
+      <td><label for="textfield"></label>
+      <input type="text" name="name" id="textfield" value="{{ value['name'] }}" class="form-control" required/></td>
+    </tr>
+    <tr>
+      <th scope="row" align="left">Place</th>
+      <td><input type="text" name="place" id="textfield2" value="{{ value['place'] }}" class="form-control" required/></td>
+    </tr>
+    <tr>
+      <th scope="row" align="left">Post</th>
+      <td><input type="text" name="post" id="textfield3" value="{{ value['post'] }}" class="form-control" required/></td>
+    </tr>
+    <tr>
+      <th scope="row" align="left">Pin</th>
+      <td><input type="text" name="pin" id="textfield4" value="{{ value['pin'] }}" class="form-control" required/></td>
+    </tr>
+    <tr>
+      <th scope="row" align="left">District</th>
+      <td><label for="select"></label>
+        <select name="district" id="select" class="form-control">
+          <option {% if value['district']=="Trivandrum" %} selected {% endif %}>Trivandrum</option>
+          <option {% if value['district']=="Kollam" %} selected {% endif %}>Kollam</option>
+          <option {% if value['district']=="Pathanamthitta" %} selected {% endif %}>Pathanamthitta</option>
+          <option {% if value['district']=="Alappuzha" %} selected {% endif %}>Alappuzha</option>
+          <option {% if value['district']=="Kottayam" %} selected {% endif %}>Kottayam</option>
+          <option {% if value['district']=="Idukki" %} selected {% endif %}>Idukki</option>
+          <option {% if value['district']=="Eranakulam" %} selected {% endif %}>Eranakulam</option>
+          <option {% if value['district']=="Thrissur" %} selected {% endif %}>Thrissur</option>
+          <option {% if value['district']=="Palakkad" %} selected {% endif %}>Palakkad</option>
+          <option {% if value['district']=="Malappuram" %} selected {% endif %}>Malappuram</option>
+          <option {% if value['district']=="Kozhikode" %} selected {% endif %}>Kozhikode</option>
+          <option {% if value['district']=="Wayanad" %} selected {% endif %}>Wayanad</option>
+          <option {% if value['district']=="Kannur" %} selected {% endif %}>Kannur</option>
+          <option {% if value['district']=="Kasaragod" %} selected {% endif %}>Kasaragod</option>
+      </select></td>
+    </tr>
+    <tr>
+      <th scope="row" align="left">Phone</th>
+      <td><input type="text" name="phone" id="textfield5" value="{{ value['phone'] }}" class="form-control" required/></td>
+    </tr>
+    <tr>
+      <th scope="row" align="left">Email</th>
+      <td><input type="text" name="email" id="textfield6" value="{{ value['email'] }}" class="form-control" required/></td>
+    </tr>
+    <tr>
+      <th scope="row" align="left">Photo</th>
+      <td><label for="fileField"></label>
+      <input type="file" name="photo" id="fileField" class="form-control"/><img src="{{ value["photo"] }}" width="50" height="50" /></td>
+    </tr>
+    <tr>
+      <th scope="row" align="left">No.of wards</th>
+      <td><input type="text" name="no_of_wards" id="textfield7" value="{{ value['no_of_wards'] }}" class="form-control" required/></td>
+    </tr>
+    <tr>
+        <th colspan="2" scope="row"><p align="center"><input type="submit" name="button" id="button" value="UPDATE" class="btn btn-primary"/></p></th>
+    </tr>
+  </table>
+</form>
+</div>
+</center>
+</body>
+{% endblock %}

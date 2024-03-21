@@ -1,0 +1,28 @@
+{% extends 'Admin/adminheader.html' %}
+{% block body %}
+
+<body>
+<form id="form1" name="form1" method="post" action="/add_dept">
+  <table class="table table-striped" border="3">
+    <tr>
+      <th width="42" scope="col">Sl No</th>
+      <th width="86" scope="col">Department</th>
+      <th width="50" scope="col">&nbsp;</th>
+    </tr>
+      {% for i in value %}
+    <tr>
+      <td>&nbsp;{{ loop.index }}</td>
+      <td>&nbsp;{{ i['department'] }}</td>
+      <td><p><a href="/edit_dept/{{ i['D_id'] }}" >Edit</a></p>
+      <p><a href="/delete_dept/{{ i['D_id'] }}" onclick="return confirm('Are you want to delete?')">Delete</a></p></td>
+    </tr>
+      {% endfor %}
+    <tr>
+      <td colspan="3"><p align="center">
+        <input type="submit" name="button" id="button" value="ADD" class="btn btn-primary"/>
+      </p></td>
+    </tr>
+  </table>
+</form>
+</body>
+{% endblock %}

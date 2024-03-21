@@ -1,0 +1,42 @@
+{% extends 'Admin/adminheader.html' %}
+{% block body %}
+
+<body>
+<form id="form1" name="form1" method="post" action="/add_mayor">
+  <table class="table table-striped" border="3">
+    <tr>
+      <th scope="col">Sl.No</th>
+      <th scope="col">Name</th>
+      <th scope="col">Age</th>
+      <th scope="col">Gender</th>
+      <th scope="col">Address</th>
+      <th scope="col">Phone</th>
+      <th scope="col">Email</th>
+      <th scope="col">&nbspJoining Date</th>
+      <th scope="col">&nbsp;</th>
+    </tr>
+      {% for i in value %}
+    <tr>
+      <td>{{ loop.index}}</td>
+      <td>&nbsp;{{ i['M_name'] }} <br><img src="{{ i['photo'] }}" width="100px" height="100px"/></td>
+      <td>&nbsp;{{ i['age'] }}</td>
+      <td>&nbsp;{{ i['gender'] }}</td>
+      <td>Place:{{ i['place'] }} <br> Post:{{ i['post'] }} <br> Pin:{{ i['pin'] }}<br>  District:{{ i['district'] }}</td>
+      <td>&nbsp;{{ i['phone'] }}</td>
+      <td>&nbsp;{{ i['email'] }}</td>
+      <td>&nbsp;{{ i['joining_date'] }}</td>
+      <td><p><a href="/edit_mayor/{{ i['mayor_id'] }}" >Edit</a></p>
+      <p><a href="/delete_mayor/{{ i['L_id'] }}" onclick="return confirm('Are you want to delete?')">Delete</a></p></td>
+    </tr>
+       {% endfor %}
+    <tr>
+      <td colspan="10"><p align="center">
+        <input type="submit" name="button" id="button" value="ADD" class="btn btn-primary"/>
+      </p></td>
+    </tr>
+
+  </table>
+</form>
+</body>
+{% endblock %}
+

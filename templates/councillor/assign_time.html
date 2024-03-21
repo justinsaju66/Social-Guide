@@ -1,0 +1,17 @@
+{% extends 'councillor/councillorheader.html'%}
+{% block body %}
+<body>
+<form id="form1" name="form1" method="post" action="/add_project_time1/{{ value['project_id'] }}">
+  <table align="center">
+    <tr>
+      <th scope="row">Time Period</th>
+      <td><label for="textfield"></label>
+      <input type="date" name="textfield" id="textfield" required class="form-control"/></td>
+    </tr>
+    <tr>
+      <th colspan="2" scope="row"><p align="center" ><input type="submit" name="button" id="button" value="Submit" class="btn btn-primary"/></p></th>
+    </tr>
+  </table>
+</form>
+</body>
+{% endblock %}

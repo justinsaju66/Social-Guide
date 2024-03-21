@@ -1,0 +1,27 @@
+{% extends 'User/user_header.html' %}
+{% block body %}
+
+<body>
+<form id="form1" name="form1" method="post" action="/chat_councillor1">
+  <table align="center" >
+    <tr>
+      <th scope="row">Councillor</th>
+      <td><label for="select"></label>
+        <select name="select" id="select" class="form-control">
+            {% for i in value %}<option value="{{ i['co_id'] }}">{{ i['c_name'] }}</option>{% endfor %}
+      </select></td>
+    </tr>
+    <tr>
+      <td>Message</td>
+      <td><label for="textfield"></label>
+      <input type="text" name="textfield" id="textfield" required class="form-control"/></td>
+    </tr>
+    <tr>
+      <td colspan="2"><div align="center">
+        <input type="submit" name="button" id="button" value="Send"  class="btn btn-primary"/>
+      </div></td>
+    </tr>
+  </table>
+</form>
+</body>
+{% endblock %}

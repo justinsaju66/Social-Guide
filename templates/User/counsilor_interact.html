@@ -1,0 +1,29 @@
+{% extends 'User/user_header.html' %}
+{% block body %}
+
+<body>
+<form id="form1" name="form1" method="post" action="/chat_councillor">
+  <table align="center" class="table table-striped" border="3">
+    <tr>
+      <th scope="col">Sl.No</th>
+      <th scope="col">Councillor</th>
+      <th scope="col">Chat</th>
+      <th scope="col"></th>
+    </tr>
+      {% for i in value %}
+    <tr>
+      <td>&nbsp;{{ loop.index }}</td>
+      <td>&nbsp;{{ i['c_name'] }}</td>
+      <td>&nbsp;{{ i['chat'] }}</td>
+      <td><a href="/user_c_reply/{{ i['co_id'] }}">Chat</a></td>
+    </tr>
+      {% endfor %}
+    <tr>
+      <td colspan="10"><p align="center">
+        <input type="submit" name="button" id="button" value="Chat" class="btn btn-primary"/>
+      </p></td>
+    </tr>
+  </table>
+</form>
+</body>
+{% endblock %}

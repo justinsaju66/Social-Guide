@@ -1,0 +1,1881 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="41848c04-08a9-44b4-addd-e34dabb9da35" name="Default" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/Social_Guide$Social_Guide.coverage" NAME="Social_Guide Coverage Results" MODIFIED="1659774829883" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/Social_Guide$nltkfiles.coverage" NAME="nltkfiles Coverage Results" MODIFIED="1621345593055" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_TABLE_DETAILS" value="true" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="450" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Flask Main" />
+        <option value="HTML File" />
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>smtp</find>
+      <find>edit_mayor</find>
+      <find>/&gt;</find>
+      <find>send_application</find>
+      <find>user_reg</find>
+      <find>view_issue</find>
+      <find>c_chat_with_councillor</find>
+      <find>view_frequent_issues</find>
+      <find>c_chat_with_user</find>
+      <find>assign_p_time</find>
+      <find>view_assign_work</find>
+      <find>user_chat_with_councillor</find>
+      <find>admin_home</find>
+    </findStrings>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/templates/Admin/Edit_mayor.html" />
+        <option value="$PROJECT_DIR$/nltkfiles.py" />
+        <option value="$PROJECT_DIR$/templates/User/user_chat_councillor.html" />
+        <option value="$PROJECT_DIR$/templates/councillor/user_chat.html" />
+        <option value="$PROJECT_DIR$/templates/User/application.html" />
+        <option value="$PROJECT_DIR$/templates/Registration.html" />
+        <option value="$PROJECT_DIR$/templates/Mayor/view_issue.html" />
+        <option value="$PROJECT_DIR$/templates/councillor/councillor_chat.html" />
+        <option value="$PROJECT_DIR$/templates/councillor/verify_issues.html" />
+        <option value="$PROJECT_DIR$/Social_Guide.py" />
+        <option value="$PROJECT_DIR$/templates/Mayor/complaint_reply.html" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="-10" />
+    <option name="y" value="1" />
+    <option name="width" value="1940" />
+    <option name="height" value="1029" />
+  </component>
+  <component name="ProjectId" id="1rwhyskXuY6yVGwPgj77w4EoanF" />
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="Scratches" />
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Social_Guide" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Social_Guide" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Social_Guide" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Social_Guide" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="templates" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Social_Guide" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Social_Guide" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="templates" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="User" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Social_Guide" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Social_Guide" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="templates" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Mayor" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\Social_Guide\templates\User" />
+      <recent name="E:\Social_Guide\templates\Mayor" />
+      <recent name="E:\Social_Guide\templates\Department" />
+      <recent name="E:\Social_Guide\templates\councillor" />
+      <recent name="E:\Social_Guide\templates\clerk" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\sajeesh\PycharmProjects\Social_Guide\templates" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Python.Social_Guide">
+    <configuration default="false" name="Corporation_management.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Social_Guide/templates/Admin/Corporation_management.html">
+      <method />
+    </configuration>
+    <configuration default="false" name="Councillor_management.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Social_Guide/templates/Admin/Councillor_management.html">
+      <method />
+    </configuration>
+    <configuration default="false" name="add_councillor.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Social_Guide/templates/Admin/add_councillor.html">
+      <method />
+    </configuration>
+    <configuration default="false" name="index1.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Social_Guide/templates/index1.html">
+      <method />
+    </configuration>
+    <configuration default="false" name="nltkfiles" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="Social_Guide" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/nltkfiles.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="DjangoTestsConfigurationType" factoryName="Django tests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="Social_Guide" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="TARGET" value="" />
+      <option name="SETTINGS_FILE" value="" />
+      <option name="CUSTOM_SETTINGS" value="false" />
+      <option name="USE_OPTIONS" value="false" />
+      <option name="OPTIONS" value="" />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavaScriptTestRunnerJest" factoryName="Jest">
+      <node-interpreter value="project" />
+      <working-dir value="" />
+      <envs />
+      <scope-kind value="ALL" />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavaScriptTestRunnerProtractor" factoryName="Protractor">
+      <config-file value="" />
+      <node-interpreter value="project" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
+      <method />
+    </configuration>
+    <configuration default="true" type="PyBehaveRunConfigurationType" factoryName="Behave">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="Social_Guide" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="ADDITIONAL_ARGS" value="" />
+      <method />
+    </configuration>
+    <configuration default="true" type="PyLettuceRunConfigurationType" factoryName="Lettuce">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="Social_Guide" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="ADDITIONAL_ARGS" value="" />
+      <method />
+    </configuration>
+    <configuration default="true" type="PythonConfigurationType" factoryName="Python">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="Tox" factoryName="Tox">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <module name="Social_Guide" />
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <arguments />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.npm" factoryName="npm">
+      <command value="run" />
+      <scripts />
+      <node-interpreter value="project" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Doctests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="Social_Guide" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Unittests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="Social_Guide" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" runner="coverage.py" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;.&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method />
+    </configuration>
+    <configuration default="false" name="Social_Guide" type="PythonConfigurationType" factoryName="Python" singleton="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="Social_Guide" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Social_Guide.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <method />
+    </configuration>
+    <list size="6">
+      <item index="0" class="java.lang.String" itemvalue="Python.Social_Guide" />
+      <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.Corporation_management.html" />
+      <item index="2" class="java.lang.String" itemvalue="JavaScript Debug.Councillor_management.html" />
+      <item index="3" class="java.lang.String" itemvalue="JavaScript Debug.add_councillor.html" />
+      <item index="4" class="java.lang.String" itemvalue="JavaScript Debug.index1.html" />
+      <item index="5" class="java.lang.String" itemvalue="Python.nltkfiles" />
+    </list>
+    <recent_temporary>
+      <list size="5">
+        <item index="0" class="java.lang.String" itemvalue="Python.nltkfiles" />
+        <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.index1.html" />
+        <item index="2" class="java.lang.String" itemvalue="JavaScript Debug.add_councillor.html" />
+        <item index="3" class="java.lang.String" itemvalue="JavaScript Debug.Councillor_management.html" />
+        <item index="4" class="java.lang.String" itemvalue="JavaScript Debug.Corporation_management.html" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="41848c04-08a9-44b4-addd-e34dabb9da35" name="Default" comment="" />
+      <created>1611306808939</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1611306808939</updated>
+      <workItem from="1619893319633" duration="2660000" />
+    </task>
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-10" y="1" width="1940" height="1029" extended-state="0" />
+    <layout>
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2732684" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32972324" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.34777376" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39951864" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="processedProjectFiles" value="true" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Social_Guide.py</url>
+          <line>1862</line>
+          <option name="timeStamp" value="25" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Social_Guide.py</url>
+          <line>1226</line>
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Social_Guide.py</url>
+          <line>1229</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Social_Guide.py</url>
+          <line>1232</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+      <option name="time" value="5" />
+    </breakpoint-manager>
+    <watches-manager />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/Social_Guide$Social_Guide.coverage" NAME="Social_Guide Coverage Results" MODIFIED="1619896081033" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/templates/User/chat_councillor.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/User/counsilor_interact.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/User/user_chat_councillor.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="125">
+          <caret line="5" column="40" lean-forward="false" selection-start-line="5" selection-start-column="40" selection-end-line="5" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/Admin/Edit_mayor.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2025">
+          <caret line="81" column="8" lean-forward="false" selection-start-line="81" selection-start-column="8" selection-end-line="81" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Social_Guide.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1622865392820" expanded="true" signature="816:901" ph="select * fro... login" />
+            <marker date="1622865392820" expanded="true" signature="2472:2546" ph="select * fro... mayor" />
+            <marker date="1622865392820" expanded="true" signature="3636:3712" ph="insert into login... " />
+            <marker date="1622865392820" expanded="true" signature="3759:4015" ph="insert into mayor... " />
+            <marker date="1622865392820" expanded="true" signature="4943:4998" ph="update login... " />
+            <marker date="1622865392820" expanded="true" signature="5286:5398" ph="select * fro... mayor" />
+            <marker date="1622865392820" expanded="true" signature="6369:6692" ph="update mayor... " />
+            <marker date="1622865392820" expanded="true" signature="6878:7154" ph="update mayor... " />
+            <marker date="1622865392820" expanded="true" signature="7332:7608" ph="update mayor... " />
+            <marker date="1622865392820" expanded="true" signature="7915:8001" ph="select * fro... councillor" />
+            <marker date="1622865392820" expanded="true" signature="9159:9240" ph="insert into login... " />
+            <marker date="1622865392820" expanded="true" signature="9287:9564" ph="insert into councillor... " />
+            <marker date="1622865392820" expanded="true" signature="10504:10630" ph="select * fro... councillor" />
+            <marker date="1622865392820" expanded="true" signature="11654:12001" ph="update counc... " />
+            <marker date="1622865392820" expanded="true" signature="12193:12493" ph="update counc... " />
+            <marker date="1622865392820" expanded="true" signature="12677:12977" ph="update counc... " />
+            <marker date="1622865392820" expanded="true" signature="13306:13361" ph="update login... " />
+            <marker date="1622865392820" expanded="true" signature="13652:13743" ph="select * fro... department" />
+            <marker date="1622865392820" expanded="true" signature="14299:14385" ph="insert into login... " />
+            <marker date="1622865392820" expanded="true" signature="14431:14501" ph="insert into department... " />
+            <marker date="1622865392820" expanded="true" signature="14803:14851" ph="select * fro... department" />
+            <marker date="1622865392820" expanded="true" signature="15184:15261" ph="update depar... " />
+            <marker date="1622865392820" expanded="true" signature="15569:15624" ph="update login... " />
+            <marker date="1622865392820" expanded="true" signature="15905:16021" ph="select * fro... clerk" />
+            <marker date="1622865392820" expanded="true" signature="16295:16319" ph="select * fro... department" />
+            <marker date="1622865392820" expanded="true" signature="17258:17334" ph="insert into login... " />
+            <marker date="1622865392820" expanded="true" signature="17381:17646" ph="insert into clerk... " />
+            <marker date="1622865392820" expanded="true" signature="18571:18634" ph="select * fro... department" />
+            <marker date="1622865392820" expanded="true" signature="18680:18769" ph="select * fro... clerk" />
+            <marker date="1622865392820" expanded="true" signature="19799:20148" ph="update clerk... " />
+            <marker date="1622865392820" expanded="true" signature="20334:20636" ph="update clerk... " />
+            <marker date="1622865392820" expanded="true" signature="20814:21116" ph="update clerk... " />
+            <marker date="1622865392820" expanded="true" signature="21429:21484" ph="update login... " />
+            <marker date="1622865392820" expanded="true" signature="21772:21854" ph="select * fro... mayor" />
+            <marker date="1622865392820" expanded="true" signature="22142:22167" ph="select * fro... corporation" />
+            <marker date="1622865392820" expanded="true" signature="23216:23416" ph="insert into corporation... " />
+            <marker date="1622865392820" expanded="true" signature="24359:24493" ph="select * fro... corporation" />
+            <marker date="1622865392820" expanded="true" signature="25405:25687" ph="update corpo... " />
+            <marker date="1622865392820" expanded="true" signature="25879:26114" ph="update corpo... " />
+            <marker date="1622865392820" expanded="true" signature="26298:26533" ph="update corpo... " />
+            <marker date="1622865392820" expanded="true" signature="26864:26920" ph="update login... " />
+            <marker date="1622865392820" expanded="true" signature="27285:27350" ph="select * fro... mayor" />
+            <marker date="1622865392820" expanded="true" signature="27605:27729" ph="select * fro... mayor" />
+            <marker date="1622865392820" expanded="true" signature="27989:28099" ph="select * fro... mayor" />
+            <marker date="1622865392820" expanded="true" signature="28342:28411" ph="select * fro... councillor" />
+            <marker date="1622865392820" expanded="true" signature="28719:28817" ph="insert into chat_mc... " />
+            <marker date="1622865392820" expanded="true" signature="29115:29139" ph="select * fro... councillor" />
+            <marker date="1622865392820" expanded="true" signature="29501:29611" ph="insert into chat_mc... " />
+            <marker date="1622865392820" expanded="true" signature="29897:29961" ph="select * fro... notification" />
+            <marker date="1622865392820" expanded="true" signature="30220:30285" ph="select * fro... feedback" />
+            <marker date="1622865392820" expanded="true" signature="30544:30629" ph="select * fro... suggestion" />
+            <marker date="1622865392820" expanded="true" signature="30890:30996" ph="select * fro... project" />
+            <marker date="1622865392820" expanded="true" signature="31293:31361" ph="UPDATE proje... " />
+            <marker date="1622865392820" expanded="true" signature="31667:31735" ph="UPDATE proje... " />
+            <marker date="1622865392820" expanded="true" signature="32001:32015" ph="select * fro... mayor_issue" />
+            <marker date="1622865392820" expanded="true" signature="32001:32060" ph="select * fro... issues" />
+            <marker date="1622865392820" expanded="true" signature="32315:32395" ph="select * fro... councillor" />
+            <marker date="1622865392820" expanded="true" signature="32667:32724" ph="select * fro... councillor_complaint" />
+            <marker date="1622865392820" expanded="true" signature="33050:33149" ph="update counc... " />
+            <marker date="1622865392820" expanded="true" signature="33526:33593" ph="select * fro... councillor" />
+            <marker date="1622865392820" expanded="true" signature="33886:34019" ph="select * fro... councillor" />
+            <marker date="1622865392820" expanded="true" signature="34288:34395" ph="select * fro... user" />
+            <marker date="1622865392820" expanded="true" signature="34662:34721" ph="select * fro... user" />
+            <marker date="1622865392820" expanded="true" signature="35051:35149" ph="insert into chat_uc... " />
+            <marker date="1622865392820" expanded="true" signature="35439:35457" ph="select * fro... user" />
+            <marker date="1622865392820" expanded="true" signature="35807:35911" ph="insert into chat_uc... " />
+            <marker date="1622865392820" expanded="true" signature="36203:36268" ph="select * fro... feedback" />
+            <marker date="1622865392820" expanded="true" signature="36530:36653" ph="select * fro... councillor" />
+            <marker date="1622865392820" expanded="true" signature="36902:36971" ph="select * fro... councillor" />
+            <marker date="1622865392820" expanded="true" signature="37290:37388" ph="insert into chat_cc... " />
+            <marker date="1622865392820" expanded="true" signature="37672:37696" ph="select * fro... councillor" />
+            <marker date="1622865392820" expanded="true" signature="38054:38164" ph="insert into chat_cc... " />
+            <marker date="1622865392820" expanded="true" signature="38698:38822" ph="insert into councillor_complaint... " />
+            <marker date="1622865392820" expanded="true" signature="39099:39264" ph="select * fro... councillor_complaint" />
+            <marker date="1622865392820" expanded="true" signature="39758:39857" ph="insert into project... " />
+            <marker date="1622865392820" expanded="true" signature="40399:40494" ph="insert into suggestion... " />
+            <marker date="1622865392820" expanded="true" signature="40781:40905" ph="select * fro... mayor" />
+            <marker date="1622865392820" expanded="true" signature="41175:41237" ph="select * fro... mayor" />
+            <marker date="1622865392820" expanded="true" signature="41560:41658" ph="insert into chat_mc... " />
+            <marker date="1622865392820" expanded="true" signature="41949:42029" ph="select * fro... mayor" />
+            <marker date="1622865392820" expanded="true" signature="42381:42486" ph="insert into chat_mc... " />
+            <marker date="1622865392820" expanded="true" signature="42781:42840" ph="select * fro... issues" />
+            <marker date="1622865392820" expanded="true" signature="44618:44663" ph="select * fro... project" />
+            <marker date="1622865392820" expanded="true" signature="44956:45006" ph="select * fro... project" />
+            <marker date="1622865392820" expanded="true" signature="45345:45415" ph="insert into project_timing... " />
+            <marker date="1622865392820" expanded="true" signature="45823:45889" ph="select * fro... department" />
+            <marker date="1622865392820" expanded="true" signature="46144:46331" ph="select * fro... clerk" />
+            <marker date="1622865392820" expanded="true" signature="46615:46801" ph="select * fro... clerk" />
+            <marker date="1622865392820" expanded="true" signature="47100:47206" ph="select * fro... clerk" />
+            <marker date="1622865392820" expanded="true" signature="47554:47662" ph="insert into attendance... " />
+            <marker date="1622865392820" expanded="true" signature="47956:48152" ph="select * fro... user" />
+            <marker date="1622865392820" expanded="true" signature="48442:48496" ph="select * fro... user_complaint" />
+            <marker date="1622865392820" expanded="true" signature="48837:48933" ph="update user_... " />
+            <marker date="1622865392820" expanded="true" signature="49229:49290" ph="select * fro... clerk" />
+            <marker date="1622865392820" expanded="true" signature="49574:49593" ph="select * fro... clerk" />
+            <marker date="1622865392820" expanded="true" signature="49956:50032" ph="insert into assign_work... " />
+            <marker date="1622865392820" expanded="true" signature="50325:50441" ph="select * fro... project" />
+            <marker date="1622865392820" expanded="true" signature="50758:50826" ph="UPDATE appli... " />
+            <marker date="1622865392820" expanded="true" signature="51155:51223" ph="UPDATE appli... " />
+            <marker date="1622865392820" expanded="true" signature="51508:51630" ph="select * fro... clerk" />
+            <marker date="1622865392820" expanded="true" signature="51894:51999" ph="select * fro... user" />
+            <marker date="1622865392820" expanded="true" signature="52257:52316" ph="select * fro... user" />
+            <marker date="1622865392820" expanded="true" signature="52666:52731" ph="select * fro... clerk" />
+            <marker date="1622865392820" expanded="true" signature="53004:53183" ph="select * fro... clerk" />
+            <marker date="1622865392820" expanded="true" signature="53475:53577" ph="select * fro... application" />
+            <marker date="1622865392820" expanded="true" signature="53879:53948" ph="UPDATE appli... " />
+            <marker date="1622865392820" expanded="true" signature="54270:54338" ph="UPDATE appli... " />
+            <marker date="1622865392820" expanded="true" signature="54922:55021" ph="insert into notification... " />
+            <marker date="1622865392820" expanded="true" signature="55546:55633" ph="insert into report... " />
+            <marker date="1622865392820" expanded="true" signature="55930:56066" ph="select * fro... assign_work" />
+            <marker date="1622865392820" expanded="true" signature="56431:56494" ph="select * fro... user" />
+            <marker date="1622865392820" expanded="true" signature="57289:57362" ph="insert into login... " />
+            <marker date="1622865392820" expanded="true" signature="57401:57610" ph="insert into user... " />
+            <marker date="1622865392820" expanded="true" signature="57851:57896" ph="select * fro... project" />
+            <marker date="1622865392820" expanded="true" signature="58430:58566" ph="insert into application... " />
+            <marker date="1622865392820" expanded="true" signature="58876:59075" ph="select appli... application" />
+            <marker date="1622865392820" expanded="true" signature="59586:59677" ph="insert into feedback... " />
+            <marker date="1622865392820" expanded="true" signature="59978:60098" ph="select * fro... councillor" />
+            <marker date="1622865392820" expanded="true" signature="60360:60429" ph="select * fro... councillor" />
+            <marker date="1622865392820" expanded="true" signature="60745:60843" ph="insert into chat_uc... " />
+            <marker date="1622865392820" expanded="true" signature="61156:61180" ph="select * fro... councillor" />
+            <marker date="1622865392820" expanded="true" signature="61549:61659" ph="insert into chat_uc... " />
+            <marker date="1622865392820" expanded="true" signature="61979:62003" ph="select * fro... department" />
+            <marker date="1622865392820" expanded="true" signature="62379:62531" ph="insert into user_complaint... " />
+            <marker date="1622865392820" expanded="true" signature="62818:62958" ph="select * fro... user_complaint" />
+            <marker date="1622865392820" expanded="true" signature="63222:63246" ph="select * fro... department" />
+            <marker date="1622865392820" expanded="true" signature="63602:63710" ph="insert into rating... " />
+            <marker date="1622865392820" expanded="true" signature="64208:64294" ph="insert into issues... " />
+            <marker date="1622865392820" expanded="true" signature="64585:64611" ph="select * fro... notification" />
+            <marker date="1622865392820" expanded="true" signature="65244:65268" ph="select * fro... councillor" />
+            <marker date="1622865392820" expanded="true" signature="65759:65858" ph="insert into chat_mc... " />
+            <marker date="1622865392820" expanded="true" signature="66375:66417" ph="select * fro... chat_mc" />
+            <marker date="1622865392820" expanded="true" signature="67218:67237" ph="select * fro... mayor" />
+            <marker date="1622865392820" expanded="true" signature="67729:67828" ph="insert into chat_mc... " />
+            <marker date="1622865392820" expanded="true" signature="68347:68389" ph="select * fro... chat_mc" />
+            <marker date="1622865392820" expanded="true" signature="69220:69244" ph="select * fro... councillor" />
+            <marker date="1622865392820" expanded="true" signature="69756:69880" ph="insert into chat_mc... " />
+            <marker date="1622865392820" expanded="true" signature="70405:70447" ph="select * fro... chat_mc" />
+            <marker date="1622865392820" expanded="true" signature="71256:71274" ph="select * fro... user" />
+            <marker date="1622865392820" expanded="true" signature="71786:71910" ph="insert into chat_mc... " />
+            <marker date="1622865392820" expanded="true" signature="72435:72477" ph="select * fro... chat_mc" />
+            <marker date="1622865392820" expanded="true" signature="73308:73332" ph="select * fro... councillor" />
+            <marker date="1622865392820" expanded="true" signature="73844:73968" ph="insert into chat_mc... " />
+            <marker date="1622865392820" expanded="true" signature="74493:74535" ph="select * fro... chat_mc" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/admin_index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/nltkfiles.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="25">
+          <caret line="1" column="18" lean-forward="false" selection-start-line="1" selection-start-column="18" selection-end-line="1" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/Admin/Edit_mayor.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2025">
+          <caret line="81" column="8" lean-forward="false" selection-start-line="81" selection-start-column="8" selection-end-line="81" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Social_Guide.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1622865392820" expanded="true" signature="816:901" ph="select * fro... login" />
+            <marker date="1622865392820" expanded="true" signature="2472:2546" ph="select * fro... mayor" />
+            <marker date="1622865392820" expanded="true" signature="3636:3712" ph="insert into login... " />
+            <marker date="1622865392820" expanded="true" signature="3759:4015" ph="insert into mayor... " />
+            <marker date="1622865392820" expanded="true" signature="4943:4998" ph="update login... " />
+            <marker date="1622865392820" expanded="true" signature="5286:5398" ph="select * fro... mayor" />
+            <marker date="1622865392820" expanded="true" signature="6369:6692" ph="update mayor... " />
+            <marker date="1622865392820" expanded="true" signature="6878:7154" ph="update mayor... " />
+            <marker date="1622865392820" expanded="true" signature="7332:7608" ph="update mayor... " />
+            <marker date="1622865392820" expanded="true" signature="7915:8001" ph="select * fro... councillor" />
+            <marker date="1622865392820" expanded="true" signature="9159:9240" ph="insert into login... " />
+            <marker date="1622865392820" expanded="true" signature="9287:9564" ph="insert into councillor... " />
+            <marker date="1622865392820" expanded="true" signature="10504:10630" ph="select * fro... councillor" />
+            <marker date="1622865392820" expanded="true" signature="11654:12001" ph="update counc... " />
+            <marker date="1622865392820" expanded="true" signature="12193:12493" ph="update counc... " />
+            <marker date="1622865392820" expanded="true" signature="12677:12977" ph="update counc... " />
+            <marker date="1622865392820" expanded="true" signature="13306:13361" ph="update login... " />
+            <marker date="1622865392820" expanded="true" signature="13652:13743" ph="select * fro... department" />
+            <marker date="1622865392820" expanded="true" signature="14299:14385" ph="insert into login... " />
+            <marker date="1622865392820" expanded="true" signature="14431:14501" ph="insert into department... " />
+            <marker date="1622865392820" expanded="true" signature="14803:14851" ph="select * fro... department" />
+            <marker date="1622865392820" expanded="true" signature="15184:15261" ph="update depar... " />
+            <marker date="1622865392820" expanded="true" signature="15569:15624" ph="update login... " />
+            <marker date="1622865392820" expanded="true" signature="15905:16021" ph="select * fro... clerk" />
+            <marker date="1622865392820" expanded="true" signature="16295:16319" ph="select * fro... department" />
+            <marker date="1622865392820" expanded="true" signature="17258:17334" ph="insert into login... " />
+            <marker date="1622865392820" expanded="true" signature="17381:17646" ph="insert into clerk... " />
+            <marker date="1622865392820" expanded="true" signature="18571:18634" ph="select * fro... department" />
+            <marker date="1622865392820" expanded="true" signature="18680:18769" ph="select * fro... clerk" />
+            <marker date="1622865392820" expanded="true" signature="19799:20148" ph="update clerk... " />
+            <marker date="1622865392820" expanded="true" signature="20334:20636" ph="update clerk... " />
+            <marker date="1622865392820" expanded="true" signature="20814:21116" ph="update clerk... " />
+            <marker date="1622865392820" expanded="true" signature="21429:21484" ph="update login... " />
+            <marker date="1622865392820" expanded="true" signature="21772:21854" ph="select * fro... mayor" />
+            <marker date="1622865392820" expanded="true" signature="22142:22167" ph="select * fro... corporation" />
+            <marker date="1622865392820" expanded="true" signature="23216:23416" ph="insert into corporation... " />
+            <marker date="1622865392820" expanded="true" signature="24359:24493" ph="select * fro... corporation" />
+            <marker date="1622865392820" expanded="true" signature="25405:25687" ph="update corpo... " />
+            <marker date="1622865392820" expanded="true" signature="25879:26114" ph="update corpo... " />
+            <marker date="1622865392820" expanded="true" signature="26298:26533" ph="update corpo... " />
+            <marker date="1622865392820" expanded="true" signature="26864:26920" ph="update login... " />
+            <marker date="1622865392820" expanded="true" signature="27285:27350" ph="select * fro... mayor" />
+            <marker date="1622865392820" expanded="true" signature="27605:27729" ph="select * fro... mayor" />
+            <marker date="1622865392820" expanded="true" signature="27989:28099" ph="select * fro... mayor" />
+            <marker date="1622865392820" expanded="true" signature="28342:28411" ph="select * fro... councillor" />
+            <marker date="1622865392820" expanded="true" signature="28719:28817" ph="insert into chat_mc... " />
+            <marker date="1622865392820" expanded="true" signature="29115:29139" ph="select * fro... councillor" />
+            <marker date="1622865392820" expanded="true" signature="29501:29611" ph="insert into chat_mc... " />
+            <marker date="1622865392820" expanded="true" signature="29897:29961" ph="select * fro... notification" />
+            <marker date="1622865392820" expanded="true" signature="30220:30285" ph="select * fro... feedback" />
+            <marker date="1622865392820" expanded="true" signature="30544:30629" ph="select * fro... suggestion" />
+            <marker date="1622865392820" expanded="true" signature="30890:30996" ph="select * fro... project" />
+            <marker date="1622865392820" expanded="true" signature="31293:31361" ph="UPDATE proje... " />
+            <marker date="1622865392820" expanded="true" signature="31667:31735" ph="UPDATE proje... " />
+            <marker date="1622865392820" expanded="true" signature="32001:32015" ph="select * fro... mayor_issue" />
+            <marker date="1622865392820" expanded="true" signature="32001:32060" ph="select * fro... issues" />
+            <marker date="1622865392820" expanded="true" signature="32315:32395" ph="select * fro... councillor" />
+            <marker date="1622865392820" expanded="true" signature="32667:32724" ph="select * fro... councillor_complaint" />
+            <marker date="1622865392820" expanded="true" signature="33050:33149" ph="update counc... " />
+            <marker date="1622865392820" expanded="true" signature="33526:33593" ph="select * fro... councillor" />
+            <marker date="1622865392820" expanded="true" signature="33886:34019" ph="select * fro... councillor" />
+            <marker date="1622865392820" expanded="true" signature="34288:34395" ph="select * fro... user" />
+            <marker date="1622865392820" expanded="true" signature="34662:34721" ph="select * fro... user" />
+            <marker date="1622865392820" expanded="true" signature="35051:35149" ph="insert into chat_uc... " />
+            <marker date="1622865392820" expanded="true" signature="35439:35457" ph="select * fro... user" />
+            <marker date="1622865392820" expanded="true" signature="35807:35911" ph="insert into chat_uc... " />
+            <marker date="1622865392820" expanded="true" signature="36203:36268" ph="select * fro... feedback" />
+            <marker date="1622865392820" expanded="true" signature="36530:36653" ph="select * fro... councillor" />
+            <marker date="1622865392820" expanded="true" signature="36902:36971" ph="select * fro... councillor" />
+            <marker date="1622865392820" expanded="true" signature="37290:37388" ph="insert into chat_cc... " />
+            <marker date="1622865392820" expanded="true" signature="37672:37696" ph="select * fro... councillor" />
+            <marker date="1622865392820" expanded="true" signature="38054:38164" ph="insert into chat_cc... " />
+            <marker date="1622865392820" expanded="true" signature="38698:38822" ph="insert into councillor_complaint... " />
+            <marker date="1622865392820" expanded="true" signature="39099:39264" ph="select * fro... councillor_complaint" />
+            <marker date="1622865392820" expanded="true" signature="39758:39857" ph="insert into project... " />
+            <marker date="1622865392820" expanded="true" signature="40399:40494" ph="insert into suggestion... " />
+            <marker date="1622865392820" expanded="true" signature="40781:40905" ph="select * fro... mayor" />
+            <marker date="1622865392820" expanded="true" signature="41175:41237" ph="select * fro... mayor" />
+            <marker date="1622865392820" expanded="true" signature="41560:41658" ph="insert into chat_mc... " />
+            <marker date="1622865392820" expanded="true" signature="41949:42029" ph="select * fro... mayor" />
+            <marker date="1622865392820" expanded="true" signature="42381:42486" ph="insert into chat_mc... " />
+            <marker date="1622865392820" expanded="true" signature="42781:42840" ph="select * fro... issues" />
+            <marker date="1622865392820" expanded="true" signature="44618:44663" ph="select * fro... project" />
+            <marker date="1622865392820" expanded="true" signature="44956:45006" ph="select * fro... project" />
+            <marker date="1622865392820" expanded="true" signature="45345:45415" ph="insert into project_timing... " />
+            <marker date="1622865392820" expanded="true" signature="45823:45889" ph="select * fro... department" />
+            <marker date="1622865392820" expanded="true" signature="46144:46331" ph="select * fro... clerk" />
+            <marker date="1622865392820" expanded="true" signature="46615:46801" ph="select * fro... clerk" />
+            <marker date="1622865392820" expanded="true" signature="47100:47206" ph="select * fro... clerk" />
+            <marker date="1622865392820" expanded="true" signature="47554:47662" ph="insert into attendance... " />
+            <marker date="1622865392820" expanded="true" signature="47956:48152" ph="select * fro... user" />
+            <marker date="1622865392820" expanded="true" signature="48442:48496" ph="select * fro... user_complaint" />
+            <marker date="1622865392820" expanded="true" signature="48837:48933" ph="update user_... " />
+            <marker date="1622865392820" expanded="true" signature="49229:49290" ph="select * fro... clerk" />
+            <marker date="1622865392820" expanded="true" signature="49574:49593" ph="select * fro... clerk" />
+            <marker date="1622865392820" expanded="true" signature="49956:50032" ph="insert into assign_work... " />
+            <marker date="1622865392820" expanded="true" signature="50325:50441" ph="select * fro... project" />
+            <marker date="1622865392820" expanded="true" signature="50758:50826" ph="UPDATE appli... " />
+            <marker date="1622865392820" expanded="true" signature="51155:51223" ph="UPDATE appli... " />
+            <marker date="1622865392820" expanded="true" signature="51508:51630" ph="select * fro... clerk" />
+            <marker date="1622865392820" expanded="true" signature="51894:51999" ph="select * fro... user" />
+            <marker date="1622865392820" expanded="true" signature="52257:52316" ph="select * fro... user" />
+            <marker date="1622865392820" expanded="true" signature="52666:52731" ph="select * fro... clerk" />
+            <marker date="1622865392820" expanded="true" signature="53004:53183" ph="select * fro... clerk" />
+            <marker date="1622865392820" expanded="true" signature="53475:53577" ph="select * fro... application" />
+            <marker date="1622865392820" expanded="true" signature="53879:53948" ph="UPDATE appli... " />
+            <marker date="1622865392820" expanded="true" signature="54270:54338" ph="UPDATE appli... " />
+            <marker date="1622865392820" expanded="true" signature="54922:55021" ph="insert into notification... " />
+            <marker date="1622865392820" expanded="true" signature="55546:55633" ph="insert into report... " />
+            <marker date="1622865392820" expanded="true" signature="55930:56066" ph="select * fro... assign_work" />
+            <marker date="1622865392820" expanded="true" signature="56431:56494" ph="select * fro... user" />
+            <marker date="1622865392820" expanded="true" signature="57289:57362" ph="insert into login... " />
+            <marker date="1622865392820" expanded="true" signature="57401:57610" ph="insert into user... " />
+            <marker date="1622865392820" expanded="true" signature="57851:57896" ph="select * fro... project" />
+            <marker date="1622865392820" expanded="true" signature="58430:58566" ph="insert into application... " />
+            <marker date="1622865392820" expanded="true" signature="58876:59075" ph="select appli... application" />
+            <marker date="1622865392820" expanded="true" signature="59586:59677" ph="insert into feedback... " />
+            <marker date="1622865392820" expanded="true" signature="59978:60098" ph="select * fro... councillor" />
+            <marker date="1622865392820" expanded="true" signature="60360:60429" ph="select * fro... councillor" />
+            <marker date="1622865392820" expanded="true" signature="60745:60843" ph="insert into chat_uc... " />
+            <marker date="1622865392820" expanded="true" signature="61156:61180" ph="select * fro... councillor" />
+            <marker date="1622865392820" expanded="true" signature="61549:61659" ph="insert into chat_uc... " />
+            <marker date="1622865392820" expanded="true" signature="61979:62003" ph="select * fro... department" />
+            <marker date="1622865392820" expanded="true" signature="62379:62531" ph="insert into user_complaint... " />
+            <marker date="1622865392820" expanded="true" signature="62818:62958" ph="select * fro... user_complaint" />
+            <marker date="1622865392820" expanded="true" signature="63222:63246" ph="select * fro... department" />
+            <marker date="1622865392820" expanded="true" signature="63602:63710" ph="insert into rating... " />
+            <marker date="1622865392820" expanded="true" signature="64208:64294" ph="insert into issues... " />
+            <marker date="1622865392820" expanded="true" signature="64585:64611" ph="select * fro... notification" />
+            <marker date="1622865392820" expanded="true" signature="65244:65268" ph="select * fro... councillor" />
+            <marker date="1622865392820" expanded="true" signature="65759:65858" ph="insert into chat_mc... " />
+            <marker date="1622865392820" expanded="true" signature="66375:66417" ph="select * fro... chat_mc" />
+            <marker date="1622865392820" expanded="true" signature="67218:67237" ph="select * fro... mayor" />
+            <marker date="1622865392820" expanded="true" signature="67729:67828" ph="insert into chat_mc... " />
+            <marker date="1622865392820" expanded="true" signature="68347:68389" ph="select * fro... chat_mc" />
+            <marker date="1622865392820" expanded="true" signature="69220:69244" ph="select * fro... councillor" />
+            <marker date="1622865392820" expanded="true" signature="69756:69880" ph="insert into chat_mc... " />
+            <marker date="1622865392820" expanded="true" signature="70405:70447" ph="select * fro... chat_mc" />
+            <marker date="1622865392820" expanded="true" signature="71256:71274" ph="select * fro... user" />
+            <marker date="1622865392820" expanded="true" signature="71786:71910" ph="insert into chat_mc... " />
+            <marker date="1622865392820" expanded="true" signature="72435:72477" ph="select * fro... chat_mc" />
+            <marker date="1622865392820" expanded="true" signature="73308:73332" ph="select * fro... councillor" />
+            <marker date="1622865392820" expanded="true" signature="73844:73968" ph="insert into chat_mc... " />
+            <marker date="1622865392820" expanded="true" signature="74493:74535" ph="select * fro... chat_mc" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/admin_index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/nltkfiles.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="25">
+          <caret line="1" column="18" lean-forward="false" selection-start-line="1" selection-start-column="18" selection-end-line="1" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/Admin/Edit_mayor.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2025">
+          <caret line="81" column="8" lean-forward="false" selection-start-line="81" selection-start-column="8" selection-end-line="81" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Social_Guide.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1622865392820" expanded="true" signature="816:901" ph="select * fro... login" />
+            <marker date="1622865392820" expanded="true" signature="2472:2546" ph="select * fro... mayor" />
+            <marker date="1622865392820" expanded="true" signature="3636:3712" ph="insert into login... " />
+            <marker date="1622865392820" expanded="true" signature="3759:4015" ph="insert into mayor... " />
+            <marker date="1622865392820" expanded="true" signature="4943:4998" ph="update login... " />
+            <marker date="1622865392820" expanded="true" signature="5286:5398" ph="select * fro... mayor" />
+            <marker date="1622865392820" expanded="true" signature="6369:6692" ph="update mayor... " />
+            <marker date="1622865392820" expanded="true" signature="6878:7154" ph="update mayor... " />
+            <marker date="1622865392820" expanded="true" signature="7332:7608" ph="update mayor... " />
+            <marker date="1622865392820" expanded="true" signature="7915:8001" ph="select * fro... councillor" />
+            <marker date="1622865392820" expanded="true" signature="9159:9240" ph="insert into login... " />
+            <marker date="1622865392820" expanded="true" signature="9287:9564" ph="insert into councillor... " />
+            <marker date="1622865392820" expanded="true" signature="10504:10630" ph="select * fro... councillor" />
+            <marker date="1622865392820" expanded="true" signature="11654:12001" ph="update counc... " />
+            <marker date="1622865392820" expanded="true" signature="12193:12493" ph="update counc... " />
+            <marker date="1622865392820" expanded="true" signature="12677:12977" ph="update counc... " />
+            <marker date="1622865392820" expanded="true" signature="13306:13361" ph="update login... " />
+            <marker date="1622865392820" expanded="true" signature="13652:13743" ph="select * fro... department" />
+            <marker date="1622865392820" expanded="true" signature="14299:14385" ph="insert into login... " />
+            <marker date="1622865392820" expanded="true" signature="14431:14501" ph="insert into department... " />
+            <marker date="1622865392820" expanded="true" signature="14803:14851" ph="select * fro... department" />
+            <marker date="1622865392820" expanded="true" signature="15184:15261" ph="update depar... " />
+            <marker date="1622865392820" expanded="true" signature="15569:15624" ph="update login... " />
+            <marker date="1622865392820" expanded="true" signature="15905:16021" ph="select * fro... clerk" />
+            <marker date="1622865392820" expanded="true" signature="16295:16319" ph="select * fro... department" />
+            <marker date="1622865392820" expanded="true" signature="17258:17334" ph="insert into login... " />
+            <marker date="1622865392820" expanded="true" signature="17381:17646" ph="insert into clerk... " />
+            <marker date="1622865392820" expanded="true" signature="18571:18634" ph="select * fro... department" />
+            <marker date="1622865392820" expanded="true" signature="18680:18769" ph="select * fro... clerk" />
+            <marker date="1622865392820" expanded="true" signature="19799:20148" ph="update clerk... " />
+            <marker date="1622865392820" expanded="true" signature="20334:20636" ph="update clerk... " />
+            <marker date="1622865392820" expanded="true" signature="20814:21116" ph="update clerk... " />
+            <marker date="1622865392820" expanded="true" signature="21429:21484" ph="update login... " />
+            <marker date="1622865392820" expanded="true" signature="21772:21854" ph="select * fro... mayor" />
+            <marker date="1622865392820" expanded="true" signature="22142:22167" ph="select * fro... corporation" />
+            <marker date="1622865392820" expanded="true" signature="23216:23416" ph="insert into corporation... " />
+            <marker date="1622865392820" expanded="true" signature="24359:24493" ph="select * fro... corporation" />
+            <marker date="1622865392820" expanded="true" signature="25405:25687" ph="update corpo... " />
+            <marker date="1622865392820" expanded="true" signature="25879:26114" ph="update corpo... " />
+            <marker date="1622865392820" expanded="true" signature="26298:26533" ph="update corpo... " />
+            <marker date="1622865392820" expanded="true" signature="26864:26920" ph="update login... " />
+            <marker date="1622865392820" expanded="true" signature="27285:27350" ph="select * fro... mayor" />
+            <marker date="1622865392820" expanded="true" signature="27605:27729" ph="select * fro... mayor" />
+            <marker date="1622865392820" expanded="true" signature="27989:28099" ph="select * fro... mayor" />
+            <marker date="1622865392820" expanded="true" signature="28342:28411" ph="select * fro... councillor" />
+            <marker date="1622865392820" expanded="true" signature="28719:28817" ph="insert into chat_mc... " />
+            <marker date="1622865392820" expanded="true" signature="29115:29139" ph="select * fro... councillor" />
+            <marker date="1622865392820" expanded="true" signature="29501:29611" ph="insert into chat_mc... " />
+            <marker date="1622865392820" expanded="true" signature="29897:29961" ph="select * fro... notification" />
+            <marker date="1622865392820" expanded="true" signature="30220:30285" ph="select * fro... feedback" />
+            <marker date="1622865392820" expanded="true" signature="30544:30629" ph="select * fro... suggestion" />
+            <marker date="1622865392820" expanded="true" signature="30890:30996" ph="select * fro... project" />
+            <marker date="1622865392820" expanded="true" signature="31293:31361" ph="UPDATE proje... " />
+            <marker date="1622865392820" expanded="true" signature="31667:31735" ph="UPDATE proje... " />
+            <marker date="1622865392820" expanded="true" signature="32001:32015" ph="select * fro... mayor_issue" />
+            <marker date="1622865392820" expanded="true" signature="32001:32060" ph="select * fro... issues" />
+            <marker date="1622865392820" expanded="true" signature="32315:32395" ph="select * fro... councillor" />
+            <marker date="1622865392820" expanded="true" signature="32667:32724" ph="select * fro... councillor_complaint" />
+            <marker date="1622865392820" expanded="true" signature="33050:33149" ph="update counc... " />
+            <marker date="1622865392820" expanded="true" signature="33526:33593" ph="select * fro... councillor" />
+            <marker date="1622865392820" expanded="true" signature="33886:34019" ph="select * fro... councillor" />
+            <marker date="1622865392820" expanded="true" signature="34288:34395" ph="select * fro... user" />
+            <marker date="1622865392820" expanded="true" signature="34662:34721" ph="select * fro... user" />
+            <marker date="1622865392820" expanded="true" signature="35051:35149" ph="insert into chat_uc... " />
+            <marker date="1622865392820" expanded="true" signature="35439:35457" ph="select * fro... user" />
+            <marker date="1622865392820" expanded="true" signature="35807:35911" ph="insert into chat_uc... " />
+            <marker date="1622865392820" expanded="true" signature="36203:36268" ph="select * fro... feedback" />
+            <marker date="1622865392820" expanded="true" signature="36530:36653" ph="select * fro... councillor" />
+            <marker date="1622865392820" expanded="true" signature="36902:36971" ph="select * fro... councillor" />
+            <marker date="1622865392820" expanded="true" signature="37290:37388" ph="insert into chat_cc... " />
+            <marker date="1622865392820" expanded="true" signature="37672:37696" ph="select * fro... councillor" />
+            <marker date="1622865392820" expanded="true" signature="38054:38164" ph="insert into chat_cc... " />
+            <marker date="1622865392820" expanded="true" signature="38698:38822" ph="insert into councillor_complaint... " />
+            <marker date="1622865392820" expanded="true" signature="39099:39264" ph="select * fro... councillor_complaint" />
+            <marker date="1622865392820" expanded="true" signature="39758:39857" ph="insert into project... " />
+            <marker date="1622865392820" expanded="true" signature="40399:40494" ph="insert into suggestion... " />
+            <marker date="1622865392820" expanded="true" signature="40781:40905" ph="select * fro... mayor" />
+            <marker date="1622865392820" expanded="true" signature="41175:41237" ph="select * fro... mayor" />
+            <marker date="1622865392820" expanded="true" signature="41560:41658" ph="insert into chat_mc... " />
+            <marker date="1622865392820" expanded="true" signature="41949:42029" ph="select * fro... mayor" />
+            <marker date="1622865392820" expanded="true" signature="42381:42486" ph="insert into chat_mc... " />
+            <marker date="1622865392820" expanded="true" signature="42781:42840" ph="select * fro... issues" />
+            <marker date="1622865392820" expanded="true" signature="44618:44663" ph="select * fro... project" />
+            <marker date="1622865392820" expanded="true" signature="44956:45006" ph="select * fro... project" />
+            <marker date="1622865392820" expanded="true" signature="45345:45415" ph="insert into project_timing... " />
+            <marker date="1622865392820" expanded="true" signature="45823:45889" ph="select * fro... department" />
+            <marker date="1622865392820" expanded="true" signature="46144:46331" ph="select * fro... clerk" />
+            <marker date="1622865392820" expanded="true" signature="46615:46801" ph="select * fro... clerk" />
+            <marker date="1622865392820" expanded="true" signature="47100:47206" ph="select * fro... clerk" />
+            <marker date="1622865392820" expanded="true" signature="47554:47662" ph="insert into attendance... " />
+            <marker date="1622865392820" expanded="true" signature="47956:48152" ph="select * fro... user" />
+            <marker date="1622865392820" expanded="true" signature="48442:48496" ph="select * fro... user_complaint" />
+            <marker date="1622865392820" expanded="true" signature="48837:48933" ph="update user_... " />
+            <marker date="1622865392820" expanded="true" signature="49229:49290" ph="select * fro... clerk" />
+            <marker date="1622865392820" expanded="true" signature="49574:49593" ph="select * fro... clerk" />
+            <marker date="1622865392820" expanded="true" signature="49956:50032" ph="insert into assign_work... " />
+            <marker date="1622865392820" expanded="true" signature="50325:50441" ph="select * fro... project" />
+            <marker date="1622865392820" expanded="true" signature="50758:50826" ph="UPDATE appli... " />
+            <marker date="1622865392820" expanded="true" signature="51155:51223" ph="UPDATE appli... " />
+            <marker date="1622865392820" expanded="true" signature="51508:51630" ph="select * fro... clerk" />
+            <marker date="1622865392820" expanded="true" signature="51894:51999" ph="select * fro... user" />
+            <marker date="1622865392820" expanded="true" signature="52257:52316" ph="select * fro... user" />
+            <marker date="1622865392820" expanded="true" signature="52666:52731" ph="select * fro... clerk" />
+            <marker date="1622865392820" expanded="true" signature="53004:53183" ph="select * fro... clerk" />
+            <marker date="1622865392820" expanded="true" signature="53475:53577" ph="select * fro... application" />
+            <marker date="1622865392820" expanded="true" signature="53879:53948" ph="UPDATE appli... " />
+            <marker date="1622865392820" expanded="true" signature="54270:54338" ph="UPDATE appli... " />
+            <marker date="1622865392820" expanded="true" signature="54922:55021" ph="insert into notification... " />
+            <marker date="1622865392820" expanded="true" signature="55546:55633" ph="insert into report... " />
+            <marker date="1622865392820" expanded="true" signature="55930:56066" ph="select * fro... assign_work" />
+            <marker date="1622865392820" expanded="true" signature="56431:56494" ph="select * fro... user" />
+            <marker date="1622865392820" expanded="true" signature="57289:57362" ph="insert into login... " />
+            <marker date="1622865392820" expanded="true" signature="57401:57610" ph="insert into user... " />
+            <marker date="1622865392820" expanded="true" signature="57851:57896" ph="select * fro... project" />
+            <marker date="1622865392820" expanded="true" signature="58430:58566" ph="insert into application... " />
+            <marker date="1622865392820" expanded="true" signature="58876:59075" ph="select appli... application" />
+            <marker date="1622865392820" expanded="true" signature="59586:59677" ph="insert into feedback... " />
+            <marker date="1622865392820" expanded="true" signature="59978:60098" ph="select * fro... councillor" />
+            <marker date="1622865392820" expanded="true" signature="60360:60429" ph="select * fro... councillor" />
+            <marker date="1622865392820" expanded="true" signature="60745:60843" ph="insert into chat_uc... " />
+            <marker date="1622865392820" expanded="true" signature="61156:61180" ph="select * fro... councillor" />
+            <marker date="1622865392820" expanded="true" signature="61549:61659" ph="insert into chat_uc... " />
+            <marker date="1622865392820" expanded="true" signature="61979:62003" ph="select * fro... department" />
+            <marker date="1622865392820" expanded="true" signature="62379:62531" ph="insert into user_complaint... " />
+            <marker date="1622865392820" expanded="true" signature="62818:62958" ph="select * fro... user_complaint" />
+            <marker date="1622865392820" expanded="true" signature="63222:63246" ph="select * fro... department" />
+            <marker date="1622865392820" expanded="true" signature="63602:63710" ph="insert into rating... " />
+            <marker date="1622865392820" expanded="true" signature="64208:64294" ph="insert into issues... " />
+            <marker date="1622865392820" expanded="true" signature="64585:64611" ph="select * fro... notification" />
+            <marker date="1622865392820" expanded="true" signature="65244:65268" ph="select * fro... councillor" />
+            <marker date="1622865392820" expanded="true" signature="65759:65858" ph="insert into chat_mc... " />
+            <marker date="1622865392820" expanded="true" signature="66375:66417" ph="select * fro... chat_mc" />
+            <marker date="1622865392820" expanded="true" signature="67218:67237" ph="select * fro... mayor" />
+            <marker date="1622865392820" expanded="true" signature="67729:67828" ph="insert into chat_mc... " />
+            <marker date="1622865392820" expanded="true" signature="68347:68389" ph="select * fro... chat_mc" />
+            <marker date="1622865392820" expanded="true" signature="69220:69244" ph="select * fro... councillor" />
+            <marker date="1622865392820" expanded="true" signature="69756:69880" ph="insert into chat_mc... " />
+            <marker date="1622865392820" expanded="true" signature="70405:70447" ph="select * fro... chat_mc" />
+            <marker date="1622865392820" expanded="true" signature="71256:71274" ph="select * fro... user" />
+            <marker date="1622865392820" expanded="true" signature="71786:71910" ph="insert into chat_mc... " />
+            <marker date="1622865392820" expanded="true" signature="72435:72477" ph="select * fro... chat_mc" />
+            <marker date="1622865392820" expanded="true" signature="73308:73332" ph="select * fro... councillor" />
+            <marker date="1622865392820" expanded="true" signature="73844:73968" ph="insert into chat_mc... " />
+            <marker date="1622865392820" expanded="true" signature="74493:74535" ph="select * fro... chat_mc" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/admin_index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/nltkfiles.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="25">
+          <caret line="1" column="18" lean-forward="false" selection-start-line="1" selection-start-column="18" selection-end-line="1" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/Admin/Edit_mayor.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2025">
+          <caret line="81" column="8" lean-forward="false" selection-start-line="81" selection-start-column="8" selection-end-line="81" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Social_Guide.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1622865392820" expanded="true" signature="816:901" ph="select * fro... login" />
+            <marker date="1622865392820" expanded="true" signature="2472:2546" ph="select * fro... mayor" />
+            <marker date="1622865392820" expanded="true" signature="3636:3712" ph="insert into login... " />
+            <marker date="1622865392820" expanded="true" signature="3759:4015" ph="insert into mayor... " />
+            <marker date="1622865392820" expanded="true" signature="4943:4998" ph="update login... " />
+            <marker date="1622865392820" expanded="true" signature="5286:5398" ph="select * fro... mayor" />
+            <marker date="1622865392820" expanded="true" signature="6369:6692" ph="update mayor... " />
+            <marker date="1622865392820" expanded="true" signature="6878:7154" ph="update mayor... " />
+            <marker date="1622865392820" expanded="true" signature="7332:7608" ph="update mayor... " />
+            <marker date="1622865392820" expanded="true" signature="7915:8001" ph="select * fro... councillor" />
+            <marker date="1622865392820" expanded="true" signature="9159:9240" ph="insert into login... " />
+            <marker date="1622865392820" expanded="true" signature="9287:9564" ph="insert into councillor... " />
+            <marker date="1622865392820" expanded="true" signature="10504:10630" ph="select * fro... councillor" />
+            <marker date="1622865392820" expanded="true" signature="11654:12001" ph="update counc... " />
+            <marker date="1622865392820" expanded="true" signature="12193:12493" ph="update counc... " />
+            <marker date="1622865392820" expanded="true" signature="12677:12977" ph="update counc... " />
+            <marker date="1622865392820" expanded="true" signature="13306:13361" ph="update login... " />
+            <marker date="1622865392820" expanded="true" signature="13652:13743" ph="select * fro... department" />
+            <marker date="1622865392820" expanded="true" signature="14299:14385" ph="insert into login... " />
+            <marker date="1622865392820" expanded="true" signature="14431:14501" ph="insert into department... " />
+            <marker date="1622865392820" expanded="true" signature="14803:14851" ph="select * fro... department" />
+            <marker date="1622865392820" expanded="true" signature="15184:15261" ph="update depar... " />
+            <marker date="1622865392820" expanded="true" signature="15569:15624" ph="update login... " />
+            <marker date="1622865392820" expanded="true" signature="15905:16021" ph="select * fro... clerk" />
+            <marker date="1622865392820" expanded="true" signature="16295:16319" ph="select * fro... department" />
+            <marker date="1622865392820" expanded="true" signature="17258:17334" ph="insert into login... " />
+            <marker date="1622865392820" expanded="true" signature="17381:17646" ph="insert into clerk... " />
+            <marker date="1622865392820" expanded="true" signature="18571:18634" ph="select * fro... department" />
+            <marker date="1622865392820" expanded="true" signature="18680:18769" ph="select * fro... clerk" />
+            <marker date="1622865392820" expanded="true" signature="19799:20148" ph="update clerk... " />
+            <marker date="1622865392820" expanded="true" signature="20334:20636" ph="update clerk... " />
+            <marker date="1622865392820" expanded="true" signature="20814:21116" ph="update clerk... " />
+            <marker date="1622865392820" expanded="true" signature="21429:21484" ph="update login... " />
+            <marker date="1622865392820" expanded="true" signature="21772:21854" ph="select * fro... mayor" />
+            <marker date="1622865392820" expanded="true" signature="22142:22167" ph="select * fro... corporation" />
+            <marker date="1622865392820" expanded="true" signature="23216:23416" ph="insert into corporation... " />
+            <marker date="1622865392820" expanded="true" signature="24359:24493" ph="select * fro... corporation" />
+            <marker date="1622865392820" expanded="true" signature="25405:25687" ph="update corpo... " />
+            <marker date="1622865392820" expanded="true" signature="25879:26114" ph="update corpo... " />
+            <marker date="1622865392820" expanded="true" signature="26298:26533" ph="update corpo... " />
+            <marker date="1622865392820" expanded="true" signature="26864:26920" ph="update login... " />
+            <marker date="1622865392820" expanded="true" signature="27285:27350" ph="select * fro... mayor" />
+            <marker date="1622865392820" expanded="true" signature="27605:27729" ph="select * fro... mayor" />
+            <marker date="1622865392820" expanded="true" signature="27989:28099" ph="select * fro... mayor" />
+            <marker date="1622865392820" expanded="true" signature="28342:28411" ph="select * fro... councillor" />
+            <marker date="1622865392820" expanded="true" signature="28719:28817" ph="insert into chat_mc... " />
+            <marker date="1622865392820" expanded="true" signature="29115:29139" ph="select * fro... councillor" />
+            <marker date="1622865392820" expanded="true" signature="29501:29611" ph="insert into chat_mc... " />
+            <marker date="1622865392820" expanded="true" signature="29897:29961" ph="select * fro... notification" />
+            <marker date="1622865392820" expanded="true" signature="30220:30285" ph="select * fro... feedback" />
+            <marker date="1622865392820" expanded="true" signature="30544:30629" ph="select * fro... suggestion" />
+            <marker date="1622865392820" expanded="true" signature="30890:30996" ph="select * fro... project" />
+            <marker date="1622865392820" expanded="true" signature="31293:31361" ph="UPDATE proje... " />
+            <marker date="1622865392820" expanded="true" signature="31667:31735" ph="UPDATE proje... " />
+            <marker date="1622865392820" expanded="true" signature="32001:32015" ph="select * fro... mayor_issue" />
+            <marker date="1622865392820" expanded="true" signature="32001:32060" ph="select * fro... issues" />
+            <marker date="1622865392820" expanded="true" signature="32315:32395" ph="select * fro... councillor" />
+            <marker date="1622865392820" expanded="true" signature="32667:32724" ph="select * fro... councillor_complaint" />
+            <marker date="1622865392820" expanded="true" signature="33050:33149" ph="update counc... " />
+            <marker date="1622865392820" expanded="true" signature="33526:33593" ph="select * fro... councillor" />
+            <marker date="1622865392820" expanded="true" signature="33886:34019" ph="select * fro... councillor" />
+            <marker date="1622865392820" expanded="true" signature="34288:34395" ph="select * fro... user" />
+            <marker date="1622865392820" expanded="true" signature="34662:34721" ph="select * fro... user" />
+            <marker date="1622865392820" expanded="true" signature="35051:35149" ph="insert into chat_uc... " />
+            <marker date="1622865392820" expanded="true" signature="35439:35457" ph="select * fro... user" />
+            <marker date="1622865392820" expanded="true" signature="35807:35911" ph="insert into chat_uc... " />
+            <marker date="1622865392820" expanded="true" signature="36203:36268" ph="select * fro... feedback" />
+            <marker date="1622865392820" expanded="true" signature="36530:36653" ph="select * fro... councillor" />
+            <marker date="1622865392820" expanded="true" signature="36902:36971" ph="select * fro... councillor" />
+            <marker date="1622865392820" expanded="true" signature="37290:37388" ph="insert into chat_cc... " />
+            <marker date="1622865392820" expanded="true" signature="37672:37696" ph="select * fro... councillor" />
+            <marker date="1622865392820" expanded="true" signature="38054:38164" ph="insert into chat_cc... " />
+            <marker date="1622865392820" expanded="true" signature="38698:38822" ph="insert into councillor_complaint... " />
+            <marker date="1622865392820" expanded="true" signature="39099:39264" ph="select * fro... councillor_complaint" />
+            <marker date="1622865392820" expanded="true" signature="39758:39857" ph="insert into project... " />
+            <marker date="1622865392820" expanded="true" signature="40399:40494" ph="insert into suggestion... " />
+            <marker date="1622865392820" expanded="true" signature="40781:40905" ph="select * fro... mayor" />
+            <marker date="1622865392820" expanded="true" signature="41175:41237" ph="select * fro... mayor" />
+            <marker date="1622865392820" expanded="true" signature="41560:41658" ph="insert into chat_mc... " />
+            <marker date="1622865392820" expanded="true" signature="41949:42029" ph="select * fro... mayor" />
+            <marker date="1622865392820" expanded="true" signature="42381:42486" ph="insert into chat_mc... " />
+            <marker date="1622865392820" expanded="true" signature="42781:42840" ph="select * fro... issues" />
+            <marker date="1622865392820" expanded="true" signature="44618:44663" ph="select * fro... project" />
+            <marker date="1622865392820" expanded="true" signature="44956:45006" ph="select * fro... project" />
+            <marker date="1622865392820" expanded="true" signature="45345:45415" ph="insert into project_timing... " />
+            <marker date="1622865392820" expanded="true" signature="45823:45889" ph="select * fro... department" />
+            <marker date="1622865392820" expanded="true" signature="46144:46331" ph="select * fro... clerk" />
+            <marker date="1622865392820" expanded="true" signature="46615:46801" ph="select * fro... clerk" />
+            <marker date="1622865392820" expanded="true" signature="47100:47206" ph="select * fro... clerk" />
+            <marker date="1622865392820" expanded="true" signature="47554:47662" ph="insert into attendance... " />
+            <marker date="1622865392820" expanded="true" signature="47956:48152" ph="select * fro... user" />
+            <marker date="1622865392820" expanded="true" signature="48442:48496" ph="select * fro... user_complaint" />
+            <marker date="1622865392820" expanded="true" signature="48837:48933" ph="update user_... " />
+            <marker date="1622865392820" expanded="true" signature="49229:49290" ph="select * fro... clerk" />
+            <marker date="1622865392820" expanded="true" signature="49574:49593" ph="select * fro... clerk" />
+            <marker date="1622865392820" expanded="true" signature="49956:50032" ph="insert into assign_work... " />
+            <marker date="1622865392820" expanded="true" signature="50325:50441" ph="select * fro... project" />
+            <marker date="1622865392820" expanded="true" signature="50758:50826" ph="UPDATE appli... " />
+            <marker date="1622865392820" expanded="true" signature="51155:51223" ph="UPDATE appli... " />
+            <marker date="1622865392820" expanded="true" signature="51508:51630" ph="select * fro... clerk" />
+            <marker date="1622865392820" expanded="true" signature="51894:51999" ph="select * fro... user" />
+            <marker date="1622865392820" expanded="true" signature="52257:52316" ph="select * fro... user" />
+            <marker date="1622865392820" expanded="true" signature="52666:52731" ph="select * fro... clerk" />
+            <marker date="1622865392820" expanded="true" signature="53004:53183" ph="select * fro... clerk" />
+            <marker date="1622865392820" expanded="true" signature="53475:53577" ph="select * fro... application" />
+            <marker date="1622865392820" expanded="true" signature="53879:53948" ph="UPDATE appli... " />
+            <marker date="1622865392820" expanded="true" signature="54270:54338" ph="UPDATE appli... " />
+            <marker date="1622865392820" expanded="true" signature="54922:55021" ph="insert into notification... " />
+            <marker date="1622865392820" expanded="true" signature="55546:55633" ph="insert into report... " />
+            <marker date="1622865392820" expanded="true" signature="55930:56066" ph="select * fro... assign_work" />
+            <marker date="1622865392820" expanded="true" signature="56431:56494" ph="select * fro... user" />
+            <marker date="1622865392820" expanded="true" signature="57289:57362" ph="insert into login... " />
+            <marker date="1622865392820" expanded="true" signature="57401:57610" ph="insert into user... " />
+            <marker date="1622865392820" expanded="true" signature="57851:57896" ph="select * fro... project" />
+            <marker date="1622865392820" expanded="true" signature="58430:58566" ph="insert into application... " />
+            <marker date="1622865392820" expanded="true" signature="58876:59075" ph="select appli... application" />
+            <marker date="1622865392820" expanded="true" signature="59586:59677" ph="insert into feedback... " />
+            <marker date="1622865392820" expanded="true" signature="59978:60098" ph="select * fro... councillor" />
+            <marker date="1622865392820" expanded="true" signature="60360:60429" ph="select * fro... councillor" />
+            <marker date="1622865392820" expanded="true" signature="60745:60843" ph="insert into chat_uc... " />
+            <marker date="1622865392820" expanded="true" signature="61156:61180" ph="select * fro... councillor" />
+            <marker date="1622865392820" expanded="true" signature="61549:61659" ph="insert into chat_uc... " />
+            <marker date="1622865392820" expanded="true" signature="61979:62003" ph="select * fro... department" />
+            <marker date="1622865392820" expanded="true" signature="62379:62531" ph="insert into user_complaint... " />
+            <marker date="1622865392820" expanded="true" signature="62818:62958" ph="select * fro... user_complaint" />
+            <marker date="1622865392820" expanded="true" signature="63222:63246" ph="select * fro... department" />
+            <marker date="1622865392820" expanded="true" signature="63602:63710" ph="insert into rating... " />
+            <marker date="1622865392820" expanded="true" signature="64208:64294" ph="insert into issues... " />
+            <marker date="1622865392820" expanded="true" signature="64585:64611" ph="select * fro... notification" />
+            <marker date="1622865392820" expanded="true" signature="65244:65268" ph="select * fro... councillor" />
+            <marker date="1622865392820" expanded="true" signature="65759:65858" ph="insert into chat_mc... " />
+            <marker date="1622865392820" expanded="true" signature="66375:66417" ph="select * fro... chat_mc" />
+            <marker date="1622865392820" expanded="true" signature="67218:67237" ph="select * fro... mayor" />
+            <marker date="1622865392820" expanded="true" signature="67729:67828" ph="insert into chat_mc... " />
+            <marker date="1622865392820" expanded="true" signature="68347:68389" ph="select * fro... chat_mc" />
+            <marker date="1622865392820" expanded="true" signature="69220:69244" ph="select * fro... councillor" />
+            <marker date="1622865392820" expanded="true" signature="69756:69880" ph="insert into chat_mc... " />
+            <marker date="1622865392820" expanded="true" signature="70405:70447" ph="select * fro... chat_mc" />
+            <marker date="1622865392820" expanded="true" signature="71256:71274" ph="select * fro... user" />
+            <marker date="1622865392820" expanded="true" signature="71786:71910" ph="insert into chat_mc... " />
+            <marker date="1622865392820" expanded="true" signature="72435:72477" ph="select * fro... chat_mc" />
+            <marker date="1622865392820" expanded="true" signature="73308:73332" ph="select * fro... councillor" />
+            <marker date="1622865392820" expanded="true" signature="73844:73968" ph="insert into chat_mc... " />
+            <marker date="1622865392820" expanded="true" signature="74493:74535" ph="select * fro... chat_mc" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/admin_index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/nltkfiles.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="25">
+          <caret line="1" column="18" lean-forward="false" selection-start-line="1" selection-start-column="18" selection-end-line="1" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/Admin/Edit_mayor.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2025">
+          <caret line="81" column="8" lean-forward="false" selection-start-line="81" selection-start-column="8" selection-end-line="81" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Social_Guide.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1622865392820" expanded="true" signature="816:901" ph="select * fro... login" />
+            <marker date="1622865392820" expanded="true" signature="2472:2546" ph="select * fro... mayor" />
+            <marker date="1622865392820" expanded="true" signature="3636:3712" ph="insert into login... " />
+            <marker date="1622865392820" expanded="true" signature="3759:4015" ph="insert into mayor... " />
+            <marker date="1622865392820" expanded="true" signature="4943:4998" ph="update login... " />
+            <marker date="1622865392820" expanded="true" signature="5286:5398" ph="select * fro... mayor" />
+            <marker date="1622865392820" expanded="true" signature="6369:6692" ph="update mayor... " />
+            <marker date="1622865392820" expanded="true" signature="6878:7154" ph="update mayor... " />
+            <marker date="1622865392820" expanded="true" signature="7332:7608" ph="update mayor... " />
+            <marker date="1622865392820" expanded="true" signature="7915:8001" ph="select * fro... councillor" />
+            <marker date="1622865392820" expanded="true" signature="9159:9240" ph="insert into login... " />
+            <marker date="1622865392820" expanded="true" signature="9287:9564" ph="insert into councillor... " />
+            <marker date="1622865392820" expanded="true" signature="10504:10630" ph="select * fro... councillor" />
+            <marker date="1622865392820" expanded="true" signature="11654:12001" ph="update counc... " />
+            <marker date="1622865392820" expanded="true" signature="12193:12493" ph="update counc... " />
+            <marker date="1622865392820" expanded="true" signature="12677:12977" ph="update counc... " />
+            <marker date="1622865392820" expanded="true" signature="13306:13361" ph="update login... " />
+            <marker date="1622865392820" expanded="true" signature="13652:13743" ph="select * fro... department" />
+            <marker date="1622865392820" expanded="true" signature="14299:14385" ph="insert into login... " />
+            <marker date="1622865392820" expanded="true" signature="14431:14501" ph="insert into department... " />
+            <marker date="1622865392820" expanded="true" signature="14803:14851" ph="select * fro... department" />
+            <marker date="1622865392820" expanded="true" signature="15184:15261" ph="update depar... " />
+            <marker date="1622865392820" expanded="true" signature="15569:15624" ph="update login... " />
+            <marker date="1622865392820" expanded="true" signature="15905:16021" ph="select * fro... clerk" />
+            <marker date="1622865392820" expanded="true" signature="16295:16319" ph="select * fro... department" />
+            <marker date="1622865392820" expanded="true" signature="17258:17334" ph="insert into login... " />
+            <marker date="1622865392820" expanded="true" signature="17381:17646" ph="insert into clerk... " />
+            <marker date="1622865392820" expanded="true" signature="18571:18634" ph="select * fro... department" />
+            <marker date="1622865392820" expanded="true" signature="18680:18769" ph="select * fro... clerk" />
+            <marker date="1622865392820" expanded="true" signature="19799:20148" ph="update clerk... " />
+            <marker date="1622865392820" expanded="true" signature="20334:20636" ph="update clerk... " />
+            <marker date="1622865392820" expanded="true" signature="20814:21116" ph="update clerk... " />
+            <marker date="1622865392820" expanded="true" signature="21429:21484" ph="update login... " />
+            <marker date="1622865392820" expanded="true" signature="21772:21854" ph="select * fro... mayor" />
+            <marker date="1622865392820" expanded="true" signature="22142:22167" ph="select * fro... corporation" />
+            <marker date="1622865392820" expanded="true" signature="23216:23416" ph="insert into corporation... " />
+            <marker date="1622865392820" expanded="true" signature="24359:24493" ph="select * fro... corporation" />
+            <marker date="1622865392820" expanded="true" signature="25405:25687" ph="update corpo... " />
+            <marker date="1622865392820" expanded="true" signature="25879:26114" ph="update corpo... " />
+            <marker date="1622865392820" expanded="true" signature="26298:26533" ph="update corpo... " />
+            <marker date="1622865392820" expanded="true" signature="26864:26920" ph="update login... " />
+            <marker date="1622865392820" expanded="true" signature="27285:27350" ph="select * fro... mayor" />
+            <marker date="1622865392820" expanded="true" signature="27605:27729" ph="select * fro... mayor" />
+            <marker date="1622865392820" expanded="true" signature="27989:28099" ph="select * fro... mayor" />
+            <marker date="1622865392820" expanded="true" signature="28342:28411" ph="select * fro... councillor" />
+            <marker date="1622865392820" expanded="true" signature="28719:28817" ph="insert into chat_mc... " />
+            <marker date="1622865392820" expanded="true" signature="29115:29139" ph="select * fro... councillor" />
+            <marker date="1622865392820" expanded="true" signature="29501:29611" ph="insert into chat_mc... " />
+            <marker date="1622865392820" expanded="true" signature="29897:29961" ph="select * fro... notification" />
+            <marker date="1622865392820" expanded="true" signature="30220:30285" ph="select * fro... feedback" />
+            <marker date="1622865392820" expanded="true" signature="30544:30629" ph="select * fro... suggestion" />
+            <marker date="1622865392820" expanded="true" signature="30890:30996" ph="select * fro... project" />
+            <marker date="1622865392820" expanded="true" signature="31293:31361" ph="UPDATE proje... " />
+            <marker date="1622865392820" expanded="true" signature="31667:31735" ph="UPDATE proje... " />
+            <marker date="1622865392820" expanded="true" signature="32001:32015" ph="select * fro... mayor_issue" />
+            <marker date="1622865392820" expanded="true" signature="32001:32060" ph="select * fro... issues" />
+            <marker date="1622865392820" expanded="true" signature="32315:32395" ph="select * fro... councillor" />
+            <marker date="1622865392820" expanded="true" signature="32667:32724" ph="select * fro... councillor_complaint" />
+            <marker date="1622865392820" expanded="true" signature="33050:33149" ph="update counc... " />
+            <marker date="1622865392820" expanded="true" signature="33526:33593" ph="select * fro... councillor" />
+            <marker date="1622865392820" expanded="true" signature="33886:34019" ph="select * fro... councillor" />
+            <marker date="1622865392820" expanded="true" signature="34288:34395" ph="select * fro... user" />
+            <marker date="1622865392820" expanded="true" signature="34662:34721" ph="select * fro... user" />
+            <marker date="1622865392820" expanded="true" signature="35051:35149" ph="insert into chat_uc... " />
+            <marker date="1622865392820" expanded="true" signature="35439:35457" ph="select * fro... user" />
+            <marker date="1622865392820" expanded="true" signature="35807:35911" ph="insert into chat_uc... " />
+            <marker date="1622865392820" expanded="true" signature="36203:36268" ph="select * fro... feedback" />
+            <marker date="1622865392820" expanded="true" signature="36530:36653" ph="select * fro... councillor" />
+            <marker date="1622865392820" expanded="true" signature="36902:36971" ph="select * fro... councillor" />
+            <marker date="1622865392820" expanded="true" signature="37290:37388" ph="insert into chat_cc... " />
+            <marker date="1622865392820" expanded="true" signature="37672:37696" ph="select * fro... councillor" />
+            <marker date="1622865392820" expanded="true" signature="38054:38164" ph="insert into chat_cc... " />
+            <marker date="1622865392820" expanded="true" signature="38698:38822" ph="insert into councillor_complaint... " />
+            <marker date="1622865392820" expanded="true" signature="39099:39264" ph="select * fro... councillor_complaint" />
+            <marker date="1622865392820" expanded="true" signature="39758:39857" ph="insert into project... " />
+            <marker date="1622865392820" expanded="true" signature="40399:40494" ph="insert into suggestion... " />
+            <marker date="1622865392820" expanded="true" signature="40781:40905" ph="select * fro... mayor" />
+            <marker date="1622865392820" expanded="true" signature="41175:41237" ph="select * fro... mayor" />
+            <marker date="1622865392820" expanded="true" signature="41560:41658" ph="insert into chat_mc... " />
+            <marker date="1622865392820" expanded="true" signature="41949:42029" ph="select * fro... mayor" />
+            <marker date="1622865392820" expanded="true" signature="42381:42486" ph="insert into chat_mc... " />
+            <marker date="1622865392820" expanded="true" signature="42781:42840" ph="select * fro... issues" />
+            <marker date="1622865392820" expanded="true" signature="44618:44663" ph="select * fro... project" />
+            <marker date="1622865392820" expanded="true" signature="44956:45006" ph="select * fro... project" />
+            <marker date="1622865392820" expanded="true" signature="45345:45415" ph="insert into project_timing... " />
+            <marker date="1622865392820" expanded="true" signature="45823:45889" ph="select * fro... department" />
+            <marker date="1622865392820" expanded="true" signature="46144:46331" ph="select * fro... clerk" />
+            <marker date="1622865392820" expanded="true" signature="46615:46801" ph="select * fro... clerk" />
+            <marker date="1622865392820" expanded="true" signature="47100:47206" ph="select * fro... clerk" />
+            <marker date="1622865392820" expanded="true" signature="47554:47662" ph="insert into attendance... " />
+            <marker date="1622865392820" expanded="true" signature="47956:48152" ph="select * fro... user" />
+            <marker date="1622865392820" expanded="true" signature="48442:48496" ph="select * fro... user_complaint" />
+            <marker date="1622865392820" expanded="true" signature="48837:48933" ph="update user_... " />
+            <marker date="1622865392820" expanded="true" signature="49229:49290" ph="select * fro... clerk" />
+            <marker date="1622865392820" expanded="true" signature="49574:49593" ph="select * fro... clerk" />
+            <marker date="1622865392820" expanded="true" signature="49956:50032" ph="insert into assign_work... " />
+            <marker date="1622865392820" expanded="true" signature="50325:50441" ph="select * fro... project" />
+            <marker date="1622865392820" expanded="true" signature="50758:50826" ph="UPDATE appli... " />
+            <marker date="1622865392820" expanded="true" signature="51155:51223" ph="UPDATE appli... " />
+            <marker date="1622865392820" expanded="true" signature="51508:51630" ph="select * fro... clerk" />
+            <marker date="1622865392820" expanded="true" signature="51894:51999" ph="select * fro... user" />
+            <marker date="1622865392820" expanded="true" signature="52257:52316" ph="select * fro... user" />
+            <marker date="1622865392820" expanded="true" signature="52666:52731" ph="select * fro... clerk" />
+            <marker date="1622865392820" expanded="true" signature="53004:53183" ph="select * fro... clerk" />
+            <marker date="1622865392820" expanded="true" signature="53475:53577" ph="select * fro... application" />
+            <marker date="1622865392820" expanded="true" signature="53879:53948" ph="UPDATE appli... " />
+            <marker date="1622865392820" expanded="true" signature="54270:54338" ph="UPDATE appli... " />
+            <marker date="1622865392820" expanded="true" signature="54922:55021" ph="insert into notification... " />
+            <marker date="1622865392820" expanded="true" signature="55546:55633" ph="insert into report... " />
+            <marker date="1622865392820" expanded="true" signature="55930:56066" ph="select * fro... assign_work" />
+            <marker date="1622865392820" expanded="true" signature="56431:56494" ph="select * fro... user" />
+            <marker date="1622865392820" expanded="true" signature="57289:57362" ph="insert into login... " />
+            <marker date="1622865392820" expanded="true" signature="57401:57610" ph="insert into user... " />
+            <marker date="1622865392820" expanded="true" signature="57851:57896" ph="select * fro... project" />
+            <marker date="1622865392820" expanded="true" signature="58430:58566" ph="insert into application... " />
+            <marker date="1622865392820" expanded="true" signature="58876:59075" ph="select appli... application" />
+            <marker date="1622865392820" expanded="true" signature="59586:59677" ph="insert into feedback... " />
+            <marker date="1622865392820" expanded="true" signature="59978:60098" ph="select * fro... councillor" />
+            <marker date="1622865392820" expanded="true" signature="60360:60429" ph="select * fro... councillor" />
+            <marker date="1622865392820" expanded="true" signature="60745:60843" ph="insert into chat_uc... " />
+            <marker date="1622865392820" expanded="true" signature="61156:61180" ph="select * fro... councillor" />
+            <marker date="1622865392820" expanded="true" signature="61549:61659" ph="insert into chat_uc... " />
+            <marker date="1622865392820" expanded="true" signature="61979:62003" ph="select * fro... department" />
+            <marker date="1622865392820" expanded="true" signature="62379:62531" ph="insert into user_complaint... " />
+            <marker date="1622865392820" expanded="true" signature="62818:62958" ph="select * fro... user_complaint" />
+            <marker date="1622865392820" expanded="true" signature="63222:63246" ph="select * fro... department" />
+            <marker date="1622865392820" expanded="true" signature="63602:63710" ph="insert into rating... " />
+            <marker date="1622865392820" expanded="true" signature="64208:64294" ph="insert into issues... " />
+            <marker date="1622865392820" expanded="true" signature="64585:64611" ph="select * fro... notification" />
+            <marker date="1622865392820" expanded="true" signature="65244:65268" ph="select * fro... councillor" />
+            <marker date="1622865392820" expanded="true" signature="65759:65858" ph="insert into chat_mc... " />
+            <marker date="1622865392820" expanded="true" signature="66375:66417" ph="select * fro... chat_mc" />
+            <marker date="1622865392820" expanded="true" signature="67218:67237" ph="select * fro... mayor" />
+            <marker date="1622865392820" expanded="true" signature="67729:67828" ph="insert into chat_mc... " />
+            <marker date="1622865392820" expanded="true" signature="68347:68389" ph="select * fro... chat_mc" />
+            <marker date="1622865392820" expanded="true" signature="69220:69244" ph="select * fro... councillor" />
+            <marker date="1622865392820" expanded="true" signature="69756:69880" ph="insert into chat_mc... " />
+            <marker date="1622865392820" expanded="true" signature="70405:70447" ph="select * fro... chat_mc" />
+            <marker date="1622865392820" expanded="true" signature="71256:71274" ph="select * fro... user" />
+            <marker date="1622865392820" expanded="true" signature="71786:71910" ph="insert into chat_mc... " />
+            <marker date="1622865392820" expanded="true" signature="72435:72477" ph="select * fro... chat_mc" />
+            <marker date="1622865392820" expanded="true" signature="73308:73332" ph="select * fro... councillor" />
+            <marker date="1622865392820" expanded="true" signature="73844:73968" ph="insert into chat_mc... " />
+            <marker date="1622865392820" expanded="true" signature="74493:74535" ph="select * fro... chat_mc" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/admin_index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/nltkfiles.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="25">
+          <caret line="1" column="18" lean-forward="false" selection-start-line="1" selection-start-column="18" selection-end-line="1" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/Admin/Edit_mayor.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2025">
+          <caret line="81" column="8" lean-forward="false" selection-start-line="81" selection-start-column="8" selection-end-line="81" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Social_Guide.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30250">
+          <caret line="1210" column="0" lean-forward="false" selection-start-line="1210" selection-start-column="0" selection-end-line="1210" selection-end-column="0" />
+          <folding>
+            <marker date="1622865392820" expanded="true" signature="816:901" ph="select * fro... login" />
+            <marker date="1622865392820" expanded="true" signature="2472:2546" ph="select * fro... mayor" />
+            <marker date="1622865392820" expanded="true" signature="3636:3712" ph="insert into login... " />
+            <marker date="1622865392820" expanded="true" signature="3759:4015" ph="insert into mayor... " />
+            <marker date="1622865392820" expanded="true" signature="4943:4998" ph="update login... " />
+            <marker date="1622865392820" expanded="true" signature="5286:5398" ph="select * fro... mayor" />
+            <marker date="1622865392820" expanded="true" signature="6369:6692" ph="update mayor... " />
+            <marker date="1622865392820" expanded="true" signature="6878:7154" ph="update mayor... " />
+            <marker date="1622865392820" expanded="true" signature="7332:7608" ph="update mayor... " />
+            <marker date="1622865392820" expanded="true" signature="7915:8001" ph="select * fro... councillor" />
+            <marker date="1622865392820" expanded="true" signature="9159:9240" ph="insert into login... " />
+            <marker date="1622865392820" expanded="true" signature="9287:9564" ph="insert into councillor... " />
+            <marker date="1622865392820" expanded="true" signature="10504:10630" ph="select * fro... councillor" />
+            <marker date="1622865392820" expanded="true" signature="11654:12001" ph="update counc... " />
+            <marker date="1622865392820" expanded="true" signature="12193:12493" ph="update counc... " />
+            <marker date="1622865392820" expanded="true" signature="12677:12977" ph="update counc... " />
+            <marker date="1622865392820" expanded="true" signature="13306:13361" ph="update login... " />
+            <marker date="1622865392820" expanded="true" signature="13652:13743" ph="select * fro... department" />
+            <marker date="1622865392820" expanded="true" signature="14299:14385" ph="insert into login... " />
+            <marker date="1622865392820" expanded="true" signature="14431:14501" ph="insert into department... " />
+            <marker date="1622865392820" expanded="true" signature="14803:14851" ph="select * fro... department" />
+            <marker date="1622865392820" expanded="true" signature="15184:15261" ph="update depar... " />
+            <marker date="1622865392820" expanded="true" signature="15569:15624" ph="update login... " />
+            <marker date="1622865392820" expanded="true" signature="15905:16021" ph="select * fro... clerk" />
+            <marker date="1622865392820" expanded="true" signature="16295:16319" ph="select * fro... department" />
+            <marker date="1622865392820" expanded="true" signature="17258:17334" ph="insert into login... " />
+            <marker date="1622865392820" expanded="true" signature="17381:17646" ph="insert into clerk... " />
+            <marker date="1622865392820" expanded="true" signature="18571:18634" ph="select * fro... department" />
+            <marker date="1622865392820" expanded="true" signature="18680:18769" ph="select * fro... clerk" />
+            <marker date="1622865392820" expanded="true" signature="19799:20148" ph="update clerk... " />
+            <marker date="1622865392820" expanded="true" signature="20334:20636" ph="update clerk... " />
+            <marker date="1622865392820" expanded="true" signature="20814:21116" ph="update clerk... " />
+            <marker date="1622865392820" expanded="true" signature="21429:21484" ph="update login... " />
+            <marker date="1622865392820" expanded="true" signature="21772:21854" ph="select * fro... mayor" />
+            <marker date="1622865392820" expanded="true" signature="22142:22167" ph="select * fro... corporation" />
+            <marker date="1622865392820" expanded="true" signature="23216:23416" ph="insert into corporation... " />
+            <marker date="1622865392820" expanded="true" signature="24359:24493" ph="select * fro... corporation" />
+            <marker date="1622865392820" expanded="true" signature="25405:25687" ph="update corpo... " />
+            <marker date="1622865392820" expanded="true" signature="25879:26114" ph="update corpo... " />
+            <marker date="1622865392820" expanded="true" signature="26298:26533" ph="update corpo... " />
+            <marker date="1622865392820" expanded="true" signature="26864:26920" ph="update login... " />
+            <marker date="1622865392820" expanded="true" signature="27285:27350" ph="select * fro... mayor" />
+            <marker date="1622865392820" expanded="true" signature="27605:27729" ph="select * fro... mayor" />
+            <marker date="1622865392820" expanded="true" signature="27989:28099" ph="select * fro... mayor" />
+            <marker date="1622865392820" expanded="true" signature="28342:28411" ph="select * fro... councillor" />
+            <marker date="1622865392820" expanded="true" signature="28719:28817" ph="insert into chat_mc... " />
+            <marker date="1622865392820" expanded="true" signature="29115:29139" ph="select * fro... councillor" />
+            <marker date="1622865392820" expanded="true" signature="29501:29611" ph="insert into chat_mc... " />
+            <marker date="1622865392820" expanded="true" signature="29897:29961" ph="select * fro... notification" />
+            <marker date="1622865392820" expanded="true" signature="30220:30285" ph="select * fro... feedback" />
+            <marker date="1622865392820" expanded="true" signature="30544:30629" ph="select * fro... suggestion" />
+            <marker date="1622865392820" expanded="true" signature="30890:30996" ph="select * fro... project" />
+            <marker date="1622865392820" expanded="true" signature="31293:31361" ph="UPDATE proje... " />
+            <marker date="1622865392820" expanded="true" signature="31667:31735" ph="UPDATE proje... " />
+            <marker date="1622865392820" expanded="true" signature="32001:32015" ph="select * fro... mayor_issue" />
+            <marker date="1622865392820" expanded="true" signature="32001:32060" ph="select * fro... issues" />
+            <marker date="1622865392820" expanded="true" signature="32315:32395" ph="select * fro... councillor" />
+            <marker date="1622865392820" expanded="true" signature="32667:32724" ph="select * fro... councillor_complaint" />
+            <marker date="1622865392820" expanded="true" signature="33050:33149" ph="update counc... " />
+            <marker date="1622865392820" expanded="true" signature="33526:33593" ph="select * fro... councillor" />
+            <marker date="1622865392820" expanded="true" signature="33886:34019" ph="select * fro... councillor" />
+            <marker date="1622865392820" expanded="true" signature="34288:34395" ph="select * fro... user" />
+            <marker date="1622865392820" expanded="true" signature="34662:34721" ph="select * fro... user" />
+            <marker date="1622865392820" expanded="true" signature="35051:35149" ph="insert into chat_uc... " />
+            <marker date="1622865392820" expanded="true" signature="35439:35457" ph="select * fro... user" />
+            <marker date="1622865392820" expanded="true" signature="35807:35911" ph="insert into chat_uc... " />
+            <marker date="1622865392820" expanded="true" signature="36203:36268" ph="select * fro... feedback" />
+            <marker date="1622865392820" expanded="true" signature="36530:36653" ph="select * fro... councillor" />
+            <marker date="1622865392820" expanded="true" signature="36902:36971" ph="select * fro... councillor" />
+            <marker date="1622865392820" expanded="true" signature="37290:37388" ph="insert into chat_cc... " />
+            <marker date="1622865392820" expanded="true" signature="37672:37696" ph="select * fro... councillor" />
+            <marker date="1622865392820" expanded="true" signature="38054:38164" ph="insert into chat_cc... " />
+            <marker date="1622865392820" expanded="true" signature="38698:38822" ph="insert into councillor_complaint... " />
+            <marker date="1622865392820" expanded="true" signature="39099:39264" ph="select * fro... councillor_complaint" />
+            <marker date="1622865392820" expanded="true" signature="39758:39857" ph="insert into project... " />
+            <marker date="1622865392820" expanded="true" signature="40399:40494" ph="insert into suggestion... " />
+            <marker date="1622865392820" expanded="true" signature="40781:40905" ph="select * fro... mayor" />
+            <marker date="1622865392820" expanded="true" signature="41175:41237" ph="select * fro... mayor" />
+            <marker date="1622865392820" expanded="true" signature="41560:41658" ph="insert into chat_mc... " />
+            <marker date="1622865392820" expanded="true" signature="41949:42029" ph="select * fro... mayor" />
+            <marker date="1622865392820" expanded="true" signature="42381:42486" ph="insert into chat_mc... " />
+            <marker date="1622865392820" expanded="true" signature="42781:42840" ph="select * fro... issues" />
+            <marker date="1622865392820" expanded="true" signature="44618:44663" ph="select * fro... project" />
+            <marker date="1622865392820" expanded="true" signature="44956:45006" ph="select * fro... project" />
+            <marker date="1622865392820" expanded="true" signature="45345:45415" ph="insert into project_timing... " />
+            <marker date="1622865392820" expanded="true" signature="45823:45889" ph="select * fro... department" />
+            <marker date="1622865392820" expanded="true" signature="46144:46331" ph="select * fro... clerk" />
+            <marker date="1622865392820" expanded="true" signature="46615:46801" ph="select * fro... clerk" />
+            <marker date="1622865392820" expanded="true" signature="47100:47206" ph="select * fro... clerk" />
+            <marker date="1622865392820" expanded="true" signature="47554:47662" ph="insert into attendance... " />
+            <marker date="1622865392820" expanded="true" signature="47956:48152" ph="select * fro... user" />
+            <marker date="1622865392820" expanded="true" signature="48442:48496" ph="select * fro... user_complaint" />
+            <marker date="1622865392820" expanded="true" signature="48837:48933" ph="update user_... " />
+            <marker date="1622865392820" expanded="true" signature="49229:49290" ph="select * fro... clerk" />
+            <marker date="1622865392820" expanded="true" signature="49574:49593" ph="select * fro... clerk" />
+            <marker date="1622865392820" expanded="true" signature="49956:50032" ph="insert into assign_work... " />
+            <marker date="1622865392820" expanded="true" signature="50325:50441" ph="select * fro... project" />
+            <marker date="1622865392820" expanded="true" signature="50758:50826" ph="UPDATE appli... " />
+            <marker date="1622865392820" expanded="true" signature="51155:51223" ph="UPDATE appli... " />
+            <marker date="1622865392820" expanded="true" signature="51508:51630" ph="select * fro... clerk" />
+            <marker date="1622865392820" expanded="true" signature="51894:51999" ph="select * fro... user" />
+            <marker date="1622865392820" expanded="true" signature="52257:52316" ph="select * fro... user" />
+            <marker date="1622865392820" expanded="true" signature="52666:52731" ph="select * fro... clerk" />
+            <marker date="1622865392820" expanded="true" signature="53004:53183" ph="select * fro... clerk" />
+            <marker date="1622865392820" expanded="true" signature="53475:53577" ph="select * fro... application" />
+            <marker date="1622865392820" expanded="true" signature="53879:53948" ph="UPDATE appli... " />
+            <marker date="1622865392820" expanded="true" signature="54270:54338" ph="UPDATE appli... " />
+            <marker date="1622865392820" expanded="true" signature="54922:55021" ph="insert into notification... " />
+            <marker date="1622865392820" expanded="true" signature="55546:55633" ph="insert into report... " />
+            <marker date="1622865392820" expanded="true" signature="55930:56066" ph="select * fro... assign_work" />
+            <marker date="1622865392820" expanded="true" signature="56431:56494" ph="select * fro... user" />
+            <marker date="1622865392820" expanded="true" signature="57289:57362" ph="insert into login... " />
+            <marker date="1622865392820" expanded="true" signature="57401:57610" ph="insert into user... " />
+            <marker date="1622865392820" expanded="true" signature="57851:57896" ph="select * fro... project" />
+            <marker date="1622865392820" expanded="true" signature="58430:58566" ph="insert into application... " />
+            <marker date="1622865392820" expanded="true" signature="58876:59075" ph="select appli... application" />
+            <marker date="1622865392820" expanded="true" signature="59586:59677" ph="insert into feedback... " />
+            <marker date="1622865392820" expanded="true" signature="59978:60098" ph="select * fro... councillor" />
+            <marker date="1622865392820" expanded="true" signature="60360:60429" ph="select * fro... councillor" />
+            <marker date="1622865392820" expanded="true" signature="60745:60843" ph="insert into chat_uc... " />
+            <marker date="1622865392820" expanded="true" signature="61156:61180" ph="select * fro... councillor" />
+            <marker date="1622865392820" expanded="true" signature="61549:61659" ph="insert into chat_uc... " />
+            <marker date="1622865392820" expanded="true" signature="61979:62003" ph="select * fro... department" />
+            <marker date="1622865392820" expanded="true" signature="62379:62531" ph="insert into user_complaint... " />
+            <marker date="1622865392820" expanded="true" signature="62818:62958" ph="select * fro... user_complaint" />
+            <marker date="1622865392820" expanded="true" signature="63222:63246" ph="select * fro... department" />
+            <marker date="1622865392820" expanded="true" signature="63602:63710" ph="insert into rating... " />
+            <marker date="1622865392820" expanded="true" signature="64208:64294" ph="insert into issues... " />
+            <marker date="1622865392820" expanded="true" signature="64585:64611" ph="select * fro... notification" />
+            <marker date="1622865392820" expanded="true" signature="65244:65268" ph="select * fro... councillor" />
+            <marker date="1622865392820" expanded="true" signature="65759:65858" ph="insert into chat_mc... " />
+            <marker date="1622865392820" expanded="true" signature="66375:66417" ph="select * fro... chat_mc" />
+            <marker date="1622865392820" expanded="true" signature="67218:67237" ph="select * fro... mayor" />
+            <marker date="1622865392820" expanded="true" signature="67729:67828" ph="insert into chat_mc... " />
+            <marker date="1622865392820" expanded="true" signature="68347:68389" ph="select * fro... chat_mc" />
+            <marker date="1622865392820" expanded="true" signature="69220:69244" ph="select * fro... councillor" />
+            <marker date="1622865392820" expanded="true" signature="69756:69880" ph="insert into chat_mc... " />
+            <marker date="1622865392820" expanded="true" signature="70405:70447" ph="select * fro... chat_mc" />
+            <marker date="1622865392820" expanded="true" signature="71256:71274" ph="select * fro... user" />
+            <marker date="1622865392820" expanded="true" signature="71786:71910" ph="insert into chat_mc... " />
+            <marker date="1622865392820" expanded="true" signature="72435:72477" ph="select * fro... chat_mc" />
+            <marker date="1622865392820" expanded="true" signature="73308:73332" ph="select * fro... councillor" />
+            <marker date="1622865392820" expanded="true" signature="73844:73968" ph="insert into chat_mc... " />
+            <marker date="1622865392820" expanded="true" signature="74493:74535" ph="select * fro... chat_mc" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/Admin/Edit_mayor.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2025">
+          <caret line="81" column="8" lean-forward="false" selection-start-line="81" selection-start-column="8" selection-end-line="81" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/nltkfiles.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="25">
+          <caret line="1" column="18" lean-forward="true" selection-start-line="1" selection-start-column="18" selection-end-line="1" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/admin_index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/nltkfiles.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="25">
+          <caret line="1" column="18" lean-forward="false" selection-start-line="1" selection-start-column="18" selection-end-line="1" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/Admin/Edit_mayor.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2025">
+          <caret line="81" column="8" lean-forward="false" selection-start-line="81" selection-start-column="8" selection-end-line="81" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/User/counsilor_interact.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/User/application.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="400">
+          <caret line="16" column="99" lean-forward="false" selection-start-line="16" selection-start-column="99" selection-end-line="16" selection-end-column="99" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/Registration.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1350">
+          <caret line="54" column="59" lean-forward="false" selection-start-line="54" selection-start-column="59" selection-end-line="54" selection-end-column="59" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/Mayor/view_issue.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="18" column="9" lean-forward="false" selection-start-line="18" selection-start-column="9" selection-end-line="18" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/Mayor/m_c chat.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/User/chat_councillor.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/Mayor/councillor_chat.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/councillor/councillor_chat.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="125">
+          <caret line="5" column="31" lean-forward="false" selection-start-line="5" selection-start-column="31" selection-end-line="5" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Roaming/Python/Python36/site-packages/flask/app.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="46925">
+          <caret line="1936" column="0" lean-forward="false" selection-start-line="1936" selection-start-column="0" selection-end-line="1936" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/councillor/verify_issues.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="350">
+          <caret line="14" column="20" lean-forward="false" selection-start-line="14" selection-start-column="20" selection-end-line="14" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/councillor/user_chat.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="125">
+          <caret line="5" column="34" lean-forward="false" selection-start-line="5" selection-start-column="34" selection-end-line="5" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Social_Guide.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="7" column="26" lean-forward="false" selection-start-line="7" selection-start-column="26" selection-end-line="7" selection-end-column="26" />
+          <folding>
+            <marker date="1622865392820" expanded="true" signature="816:901" ph="select * fro... login" />
+            <marker date="1622865392820" expanded="true" signature="2472:2546" ph="select * fro... mayor" />
+            <marker date="1622865392820" expanded="true" signature="3636:3712" ph="insert into login... " />
+            <marker date="1622865392820" expanded="true" signature="3759:4015" ph="insert into mayor... " />
+            <marker date="1622865392820" expanded="true" signature="4943:4998" ph="update login... " />
+            <marker date="1622865392820" expanded="true" signature="5286:5398" ph="select * fro... mayor" />
+            <marker date="1622865392820" expanded="true" signature="6369:6692" ph="update mayor... " />
+            <marker date="1622865392820" expanded="true" signature="6878:7154" ph="update mayor... " />
+            <marker date="1622865392820" expanded="true" signature="7332:7608" ph="update mayor... " />
+            <marker date="1622865392820" expanded="true" signature="7915:8001" ph="select * fro... councillor" />
+            <marker date="1622865392820" expanded="true" signature="9159:9240" ph="insert into login... " />
+            <marker date="1622865392820" expanded="true" signature="9287:9564" ph="insert into councillor... " />
+            <marker date="1622865392820" expanded="true" signature="10504:10630" ph="select * fro... councillor" />
+            <marker date="1622865392820" expanded="true" signature="11654:12001" ph="update counc... " />
+            <marker date="1622865392820" expanded="true" signature="12193:12493" ph="update counc... " />
+            <marker date="1622865392820" expanded="true" signature="12677:12977" ph="update counc... " />
+            <marker date="1622865392820" expanded="true" signature="13306:13361" ph="update login... " />
+            <marker date="1622865392820" expanded="true" signature="13652:13743" ph="select * fro... department" />
+            <marker date="1622865392820" expanded="true" signature="14299:14385" ph="insert into login... " />
+            <marker date="1622865392820" expanded="true" signature="14431:14501" ph="insert into department... " />
+            <marker date="1622865392820" expanded="true" signature="14803:14851" ph="select * fro... department" />
+            <marker date="1622865392820" expanded="true" signature="15184:15261" ph="update depar... " />
+            <marker date="1622865392820" expanded="true" signature="15569:15624" ph="update login... " />
+            <marker date="1622865392820" expanded="true" signature="15905:16021" ph="select * fro... clerk" />
+            <marker date="1622865392820" expanded="true" signature="16295:16319" ph="select * fro... department" />
+            <marker date="1622865392820" expanded="true" signature="17258:17334" ph="insert into login... " />
+            <marker date="1622865392820" expanded="true" signature="17381:17646" ph="insert into clerk... " />
+            <marker date="1622865392820" expanded="true" signature="18571:18634" ph="select * fro... department" />
+            <marker date="1622865392820" expanded="true" signature="18680:18769" ph="select * fro... clerk" />
+            <marker date="1622865392820" expanded="true" signature="19799:20148" ph="update clerk... " />
+            <marker date="1622865392820" expanded="true" signature="20334:20636" ph="update clerk... " />
+            <marker date="1622865392820" expanded="true" signature="20814:21116" ph="update clerk... " />
+            <marker date="1622865392820" expanded="true" signature="21429:21484" ph="update login... " />
+            <marker date="1622865392820" expanded="true" signature="21772:21854" ph="select * fro... mayor" />
+            <marker date="1622865392820" expanded="true" signature="22142:22167" ph="select * fro... corporation" />
+            <marker date="1622865392820" expanded="true" signature="23216:23416" ph="insert into corporation... " />
+            <marker date="1622865392820" expanded="true" signature="24359:24493" ph="select * fro... corporation" />
+            <marker date="1622865392820" expanded="true" signature="25405:25687" ph="update corpo... " />
+            <marker date="1622865392820" expanded="true" signature="25879:26114" ph="update corpo... " />
+            <marker date="1622865392820" expanded="true" signature="26298:26533" ph="update corpo... " />
+            <marker date="1622865392820" expanded="true" signature="26864:26920" ph="update login... " />
+            <marker date="1622865392820" expanded="true" signature="27285:27350" ph="select * fro... mayor" />
+            <marker date="1622865392820" expanded="true" signature="27605:27729" ph="select * fro... mayor" />
+            <marker date="1622865392820" expanded="true" signature="27989:28099" ph="select * fro... mayor" />
+            <marker date="1622865392820" expanded="true" signature="28342:28411" ph="select * fro... councillor" />
+            <marker date="1622865392820" expanded="true" signature="28719:28817" ph="insert into chat_mc... " />
+            <marker date="1622865392820" expanded="true" signature="29115:29139" ph="select * fro... councillor" />
+            <marker date="1622865392820" expanded="true" signature="29501:29611" ph="insert into chat_mc... " />
+            <marker date="1622865392820" expanded="true" signature="29897:29961" ph="select * fro... notification" />
+            <marker date="1622865392820" expanded="true" signature="30220:30285" ph="select * fro... feedback" />
+            <marker date="1622865392820" expanded="true" signature="30544:30629" ph="select * fro... suggestion" />
+            <marker date="1622865392820" expanded="true" signature="30890:30996" ph="select * fro... project" />
+            <marker date="1622865392820" expanded="true" signature="31293:31361" ph="UPDATE proje... " />
+            <marker date="1622865392820" expanded="true" signature="31667:31735" ph="UPDATE proje... " />
+            <marker date="1622865392820" expanded="true" signature="32001:32015" ph="select * fro... mayor_issue" />
+            <marker date="1622865392820" expanded="true" signature="32001:32060" ph="select * fro... issues" />
+            <marker date="1622865392820" expanded="true" signature="32315:32395" ph="select * fro... councillor" />
+            <marker date="1622865392820" expanded="true" signature="32667:32724" ph="select * fro... councillor_complaint" />
+            <marker date="1622865392820" expanded="true" signature="33050:33149" ph="update counc... " />
+            <marker date="1622865392820" expanded="true" signature="33526:33593" ph="select * fro... councillor" />
+            <marker date="1622865392820" expanded="true" signature="33886:34019" ph="select * fro... councillor" />
+            <marker date="1622865392820" expanded="true" signature="34288:34395" ph="select * fro... user" />
+            <marker date="1622865392820" expanded="true" signature="34662:34721" ph="select * fro... user" />
+            <marker date="1622865392820" expanded="true" signature="35051:35149" ph="insert into chat_uc... " />
+            <marker date="1622865392820" expanded="true" signature="35439:35457" ph="select * fro... user" />
+            <marker date="1622865392820" expanded="true" signature="35807:35911" ph="insert into chat_uc... " />
+            <marker date="1622865392820" expanded="true" signature="36203:36268" ph="select * fro... feedback" />
+            <marker date="1622865392820" expanded="true" signature="36530:36653" ph="select * fro... councillor" />
+            <marker date="1622865392820" expanded="true" signature="36902:36971" ph="select * fro... councillor" />
+            <marker date="1622865392820" expanded="true" signature="37290:37388" ph="insert into chat_cc... " />
+            <marker date="1622865392820" expanded="true" signature="37672:37696" ph="select * fro... councillor" />
+            <marker date="1622865392820" expanded="true" signature="38054:38164" ph="insert into chat_cc... " />
+            <marker date="1622865392820" expanded="true" signature="38698:38822" ph="insert into councillor_complaint... " />
+            <marker date="1622865392820" expanded="true" signature="39099:39264" ph="select * fro... councillor_complaint" />
+            <marker date="1622865392820" expanded="true" signature="39758:39857" ph="insert into project... " />
+            <marker date="1622865392820" expanded="true" signature="40399:40494" ph="insert into suggestion... " />
+            <marker date="1622865392820" expanded="true" signature="40781:40905" ph="select * fro... mayor" />
+            <marker date="1622865392820" expanded="true" signature="41175:41237" ph="select * fro... mayor" />
+            <marker date="1622865392820" expanded="true" signature="41560:41658" ph="insert into chat_mc... " />
+            <marker date="1622865392820" expanded="true" signature="41949:42029" ph="select * fro... mayor" />
+            <marker date="1622865392820" expanded="true" signature="42381:42486" ph="insert into chat_mc... " />
+            <marker date="1622865392820" expanded="true" signature="42781:42840" ph="select * fro... issues" />
+            <marker date="1622865392820" expanded="true" signature="44618:44663" ph="select * fro... project" />
+            <marker date="1622865392820" expanded="true" signature="44956:45006" ph="select * fro... project" />
+            <marker date="1622865392820" expanded="true" signature="45345:45415" ph="insert into project_timing... " />
+            <marker date="1622865392820" expanded="true" signature="45823:45889" ph="select * fro... department" />
+            <marker date="1622865392820" expanded="true" signature="46144:46331" ph="select * fro... clerk" />
+            <marker date="1622865392820" expanded="true" signature="46615:46801" ph="select * fro... clerk" />
+            <marker date="1622865392820" expanded="true" signature="47100:47206" ph="select * fro... clerk" />
+            <marker date="1622865392820" expanded="true" signature="47554:47662" ph="insert into attendance... " />
+            <marker date="1622865392820" expanded="true" signature="47956:48152" ph="select * fro... user" />
+            <marker date="1622865392820" expanded="true" signature="48442:48496" ph="select * fro... user_complaint" />
+            <marker date="1622865392820" expanded="true" signature="48837:48933" ph="update user_... " />
+            <marker date="1622865392820" expanded="true" signature="49229:49290" ph="select * fro... clerk" />
+            <marker date="1622865392820" expanded="true" signature="49574:49593" ph="select * fro... clerk" />
+            <marker date="1622865392820" expanded="true" signature="49956:50032" ph="insert into assign_work... " />
+            <marker date="1622865392820" expanded="true" signature="50325:50441" ph="select * fro... project" />
+            <marker date="1622865392820" expanded="true" signature="50758:50826" ph="UPDATE appli... " />
+            <marker date="1622865392820" expanded="true" signature="51155:51223" ph="UPDATE appli... " />
+            <marker date="1622865392820" expanded="true" signature="51508:51630" ph="select * fro... clerk" />
+            <marker date="1622865392820" expanded="true" signature="51894:51999" ph="select * fro... user" />
+            <marker date="1622865392820" expanded="true" signature="52257:52316" ph="select * fro... user" />
+            <marker date="1622865392820" expanded="true" signature="52666:52731" ph="select * fro... clerk" />
+            <marker date="1622865392820" expanded="true" signature="53004:53183" ph="select * fro... clerk" />
+            <marker date="1622865392820" expanded="true" signature="53475:53577" ph="select * fro... application" />
+            <marker date="1622865392820" expanded="true" signature="53879:53948" ph="UPDATE appli... " />
+            <marker date="1622865392820" expanded="true" signature="54270:54338" ph="UPDATE appli... " />
+            <marker date="1622865392820" expanded="true" signature="54922:55021" ph="insert into notification... " />
+            <marker date="1622865392820" expanded="true" signature="55546:55633" ph="insert into report... " />
+            <marker date="1622865392820" expanded="true" signature="55930:56066" ph="select * fro... assign_work" />
+            <marker date="1622865392820" expanded="true" signature="56431:56494" ph="select * fro... user" />
+            <marker date="1622865392820" expanded="true" signature="57289:57362" ph="insert into login... " />
+            <marker date="1622865392820" expanded="true" signature="57401:57610" ph="insert into user... " />
+            <marker date="1622865392820" expanded="true" signature="57851:57896" ph="select * fro... project" />
+            <marker date="1622865392820" expanded="true" signature="58430:58566" ph="insert into application... " />
+            <marker date="1622865392820" expanded="true" signature="58876:59075" ph="select appli... application" />
+            <marker date="1622865392820" expanded="true" signature="59586:59677" ph="insert into feedback... " />
+            <marker date="1622865392820" expanded="true" signature="59978:60098" ph="select * fro... councillor" />
+            <marker date="1622865392820" expanded="true" signature="60360:60429" ph="select * fro... councillor" />
+            <marker date="1622865392820" expanded="true" signature="60745:60843" ph="insert into chat_uc... " />
+            <marker date="1622865392820" expanded="true" signature="61156:61180" ph="select * fro... councillor" />
+            <marker date="1622865392820" expanded="true" signature="61549:61659" ph="insert into chat_uc... " />
+            <marker date="1622865392820" expanded="true" signature="61979:62003" ph="select * fro... department" />
+            <marker date="1622865392820" expanded="true" signature="62379:62531" ph="insert into user_complaint... " />
+            <marker date="1622865392820" expanded="true" signature="62818:62958" ph="select * fro... user_complaint" />
+            <marker date="1622865392820" expanded="true" signature="63222:63246" ph="select * fro... department" />
+            <marker date="1622865392820" expanded="true" signature="63602:63710" ph="insert into rating... " />
+            <marker date="1622865392820" expanded="true" signature="64208:64294" ph="insert into issues... " />
+            <marker date="1622865392820" expanded="true" signature="64585:64611" ph="select * fro... notification" />
+            <marker date="1622865392820" expanded="true" signature="65244:65268" ph="select * fro... councillor" />
+            <marker date="1622865392820" expanded="true" signature="65759:65858" ph="insert into chat_mc... " />
+            <marker date="1622865392820" expanded="true" signature="66375:66417" ph="select * fro... chat_mc" />
+            <marker date="1622865392820" expanded="true" signature="67218:67237" ph="select * fro... mayor" />
+            <marker date="1622865392820" expanded="true" signature="67729:67828" ph="insert into chat_mc... " />
+            <marker date="1622865392820" expanded="true" signature="68347:68389" ph="select * fro... chat_mc" />
+            <marker date="1622865392820" expanded="true" signature="69220:69244" ph="select * fro... councillor" />
+            <marker date="1622865392820" expanded="true" signature="69756:69880" ph="insert into chat_mc... " />
+            <marker date="1622865392820" expanded="true" signature="70405:70447" ph="select * fro... chat_mc" />
+            <marker date="1622865392820" expanded="true" signature="71256:71274" ph="select * fro... user" />
+            <marker date="1622865392820" expanded="true" signature="71786:71910" ph="insert into chat_mc... " />
+            <marker date="1622865392820" expanded="true" signature="72435:72477" ph="select * fro... chat_mc" />
+            <marker date="1622865392820" expanded="true" signature="73308:73332" ph="select * fro... councillor" />
+            <marker date="1622865392820" expanded="true" signature="73844:73968" ph="insert into chat_mc... " />
+            <marker date="1622865392820" expanded="true" signature="74493:74535" ph="select * fro... chat_mc" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/Mayor/complaint_reply.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/Mayor/chat.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/Admin/add_clerk.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/Admin/add_corporation.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/Admin/add_councillor.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/Admin/add_department.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/User/user_chat_councillor.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="25">
+          <caret line="22" column="0" lean-forward="false" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/clerk/view_assign_work.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/councillor/project_timeperiod.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

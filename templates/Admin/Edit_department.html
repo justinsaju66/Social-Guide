@@ -1,0 +1,18 @@
+{% extends 'Admin/adminheader.html' %}
+{% block body %}
+
+<body>
+<form id="form1" name="form1" method="post" action="/edit_dept1/{{ value['D_id'] }}">
+  <table>
+    <tr>
+      <th scope="row" align="left">Department</th>
+      <td><label for="textfield"></label>
+      <input type="text" name="department" id="textfield"  value="{{ value['department'] }}" required/></td>
+    </tr>
+    <tr>
+        <th colspan="2" scope="row"><p align="center"> <input type="submit" name="button" id="button" value="UPDATE" /></p></th>
+    </tr>
+  </table>
+</form>
+</body>
+{% endblock %}

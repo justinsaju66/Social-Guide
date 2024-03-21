@@ -1,0 +1,46 @@
+{% extends 'User/user_header.html' %}
+{% block body %}
+
+<body>
+<form id="form1" name="form1" method="post" action="/rating_dept1">
+  <table align="center">
+      <tr>
+      <th scope="row">DEPARTMENT</th>
+      <td><label for="select"></label>
+        <select name="select" id="select" class="form-control">
+            {% for i in value %}<option value="{{ i['D_id'] }}">{{ i['department'] }}</option>{% endfor %}
+      </select></td>
+    </tr>
+      <tr>
+        <th scope="row">RATE</th>
+        <td><p>
+          <label>
+            <input type="radio" name="RadioGroup1" value="1" id="RadioGroup1_0" />
+            *</label>
+          <br />
+          <label>
+            <input type="radio" name="RadioGroup1" value="2" id="RadioGroup1_1" />
+            **</label>
+          <br />
+          <label>
+            <input type="radio" name="RadioGroup1" value="3" id="RadioGroup1_2" />
+            ***</label>
+          <br />
+          <label>
+            <input type="radio" name="RadioGroup1" value="4" id="RadioGroup1_3" />
+            ****</label>
+          <br />
+          <label>
+            <input type="radio" name="RadioGroup1" value="5" id="RadioGroup1_4" />
+            *****</label>
+          <br />
+        </p></td>
+      </tr>
+
+    <tr>
+        <td colspan="2" scope="row"><p align="center"> <input type="submit" name="button" id="button" value="Submit"class="btn btn-primary" /></p></td>
+    </tr>
+  </table>
+</form>
+</body>
+{% endblock %}

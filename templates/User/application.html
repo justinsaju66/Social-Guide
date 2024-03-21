@@ -1,0 +1,25 @@
+{% extends 'User/user_header.html' %}
+{% block body %}
+
+<body>
+<form action="/send_application1" method="post" enctype="multipart/form-data" name="form1" id="form1">
+  <table>
+    <tr>
+      <th scope="row">PROJECT</th>
+      <td>
+        <select name="select" id="select" class="form-control">
+             {% for i in value %}<option value="{{ i['project_id'] }}">{{ i['project'] }}</option>{% endfor %}
+      </select></td>
+    </tr>
+    <tr>
+      <th scope="row" >APPLICATION <br/> (upload pdf files) </th>
+      <td>
+      <input type="file" name="fileField" id="fileField" required class="form-control" accept=".pdf" /></td>
+    </tr>
+    <tr>
+        <td colspan="2" scope="row" align="center"><input type="submit" name="button" id="button" value="Submit"class="btn btn-primary" /></td>
+    </tr>
+  </table>
+</form>
+</body>
+{% endblock %}

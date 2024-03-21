@@ -1,0 +1,90 @@
+{% extends 'Admin/adminheader.html' %}
+{% block body %}
+
+<body>
+<center>
+<div class="container">
+<form action="/add_clerk1" method="post" enctype="multipart/form-data" name="form1" id="form1">
+  <table align="center" cellpadding="5" >
+    <tr>
+      <th scope="row">Name</th>
+      <td><label for="textfield"></label>
+      <input type="text" name="name" id="textfield" class="form-control" required/></td>
+    </tr>
+    <tr>
+      <th scope="row">Age</th>
+      <td><input type="text" name="age" id="textfield2" class="form-control" required/></td>
+    </tr>
+    <tr>
+      <th scope="row">Gender</th>
+      <td><input type="radio" name="gender" id="radio" value="male" />
+      <label for="radio">Male
+        <input type="radio" name="gender" id="radio2" value="female" />
+      Female</label></td>
+    </tr>
+    <tr>
+      <th scope="row">Place</th>
+      <td><input type="text" name="place" id="textfield3" class="form-control" required/></td>
+    </tr>
+    <tr>
+      <th scope="row">Post</th>
+      <td><input type="text" name="post" id="textfield4" class="form-control" required/></td>
+    </tr>
+    <tr>
+      <th scope="row">Pin</th>
+      <td><input type="text" name="pin" id="textfield5"  class="form-control" required/></td>
+    </tr>
+    <tr>
+      <th scope="row">District</th>
+      <td><label for="select"></label>
+        <select name="district" id="select" class="form-control">
+         <option>--Select--</option>
+         <option>Thiruvanandapuram</option>
+          <option>Kollam</option>
+          <option>Pathanamthitta</option>
+          <option>Alappuzha</option>
+          <option>Kottayam</option>
+          <option>Idukki</option>
+          <option>Eranakulam</option>
+          <option>Trissur</option>
+          <option>Palakkad</option>
+          <option>Malappuram</option>
+          <option>Kozhikode</option>
+          <option>Wayanad</option>
+          <option>kannur</option>
+          <option>Kasaragod</option>
+      </select></td>
+    </tr>
+    <tr>
+      <th scope="row">Phone</th>
+      <td><input type="text" name="phone" id="textfield6" class="form-control" required/></td>
+    </tr>
+    <tr>
+      <th scope="row">Email</th>
+      <td><input type="text" name="email" id="textfield7" class="form-control" required/></td>
+    </tr>
+    <tr>
+      <th scope="row">Qualification</th>
+      <td><input type="text" name="qualification" id="textfield8" class="form-control" required/></td>
+    </tr>
+    <tr>
+      <th scope="row">Photo</th>
+      <td><label for="fileField"></label>
+      <input type="file" name="photo" id="photo" class="form-control" required/></td>
+    </tr>
+    <tr>
+      <th scope="row">Department</th>
+      <td><label for="select"></label>
+        <select name="department" id="select" class="form-control">
+            {% for i in val %}<option value="{{ i['D_id'] }}">{{ i['department'] }}</option>{% endfor %}
+      </select></td>
+    </tr>
+     <tr>
+         <th colspan="2" scope="row"><p align="center"><input type="submit" name="button" id="button" value="Submit" class="btn btn-primary" /></p></th>
+    </tr>
+  </table>
+</form>
+</div>
+</center>
+</body>
+{% endblock %}

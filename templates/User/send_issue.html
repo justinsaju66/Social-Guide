@@ -1,0 +1,18 @@
+{% extends 'User/user_header.html' %}
+{% block body %}
+
+<body>
+<form id="form1" name="form1" method="post" action="/send_issue">
+  <table align="center">
+    <tr>
+      <th scope="row">ISSUES</th>
+      <td>
+      <textarea name="textarea" id="textarea" cols="45" rows="5" required class="form-control"></textarea></td>
+    </tr>
+    <tr>
+        <th colspan="2" scope="row"><p align="center"> <input type="submit" name="button" id="button" value="SEND" class="btn btn-primary" /></p></th>
+    </tr>
+  </table>
+</form>
+</body>
+{% endblock %}

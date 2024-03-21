@@ -1,0 +1,17 @@
+{% extends 'councillor/councillorheader.html'%}
+{% block body %}
+<body>
+<form id="form1" name="form1" method="post" action="/send_suggestion1">
+  <table align="center" >
+    <tr>
+      <th scope="row">Suggestion</th>
+      <td>
+      <textarea name="suggestion" id="textarea" cols="45" rows="5" required class="form-control"></textarea></td>
+    </tr>
+    <tr>
+        <th colspan="2" scope="row"><p align="center" ><input type="submit" name="button" id="button" value="Send" class="btn btn-primary"/></p></th>
+    </tr>
+  </table>
+</form>
+</body>
+{% endblock %}

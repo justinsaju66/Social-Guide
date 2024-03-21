@@ -1,0 +1,44 @@
+{% extends 'Admin/adminheader.html' %}
+{% block body %}
+
+<body>
+
+
+<form id="form1" name="form1" method="post" action="/add_clerk">
+  <table  border="3"  class="table table-striped">
+    <tr>
+      <th scope="col">Sl No</th>
+      <th scope="col">Name</th>
+      <th scope="col">Age</th>
+      <th scope="col">Gender</th>
+      <th scope="col">Address</th>
+      <th scope="col">Phone</th>
+      <th scope="col">Email</th>
+      <th scope="col">Qualification</th>
+      <th scope="col">Department</th>
+      <th scope="col">&nbsp;</th>
+    </tr>
+      {% for i in value %}
+    <tr>
+      <td>&nbsp;{{ loop.index }}</td>
+      <td>&nbsp;{{ i['name'] }} <br><img src="{{ i['photo'] }}" width="50" height="50"/></td>
+      <td>&nbsp;{{ i['age'] }}</td>
+      <td>&nbsp;{{ i['gender'] }}</td>
+      <td>Place:{{ i['place'] }}<br> Post:{{ i['post'] }}<br> Pin:{{ i['pin'] }}<br> District:{{ i['district'] }}</td>
+      <td>&nbsp;{{ i['phone'] }}</td>
+      <td>&nbsp;{{ i['email'] }}</td>
+      <td>&nbsp;{{ i['qualification'] }}</td>
+      <td>&nbsp;{{ i['department'] }}</td>
+      <td><p><a href="/edit_clerk/{{ i['clerk_id'] }}">Edit</a></p>
+      <p><a href="/delete_clerk/{{ i['clerk_id'] }}" onclick="return confirm('Are you want to delete?')">Delete</a></p></td>
+    </tr>
+      {% endfor %}
+    <tr>
+      <td colspan="10"><p align="center">
+        <input type="submit" name="button" id="button" value="ADD" class="btn btn-primary" />
+      </p></td>
+    </tr>
+  </table>
+</form>
+</body>
+{% endblock %}

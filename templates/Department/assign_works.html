@@ -1,0 +1,23 @@
+{% extends 'Department/dept_header.html' %}
+{% block body %}
+
+<body>
+<form id="form1" name="form1" method="post" action="/assign_works1/{{ value['clerk_id'] }}">
+  <table align="center" cellspacing="10" >
+    <tr>
+      <th scope="row">Work</th>
+      <td><label for="textfield"></label>
+      <input type="text" name="work" id="textfield" required class="form-control"/></td>
+    </tr>
+    <tr>
+      <th scope="row">Date</th>
+      <td><label for="textfield2"></label>
+      <input type="date" name="date" id="textfield2" required class="form-control"/></td>
+    </tr>
+    <tr>
+      <td colspan="2" scope="row" align="center"><input type="submit" name="button" id="button" value="Submit" class="btn btn-primary" /></td>
+    </tr>
+  </table>
+</form>
+</body>
+{% endblock %}

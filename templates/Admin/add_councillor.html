@@ -1,0 +1,124 @@
+{% extends 'Admin/adminheader.html' %}
+{% block body %}
+
+<body>
+<center>
+    <div class="container">
+<form id="form1" name="form1" enctype="multipart/form-data" method="post" action="/add_councillor1">
+  <table align="center" cellpadding="5" >
+    <tr>
+      <th scope="row" align="left">Name</th>
+      <td><label for="textfield"></label>
+      <input type="text" name="name" id="textfield" class="form-control" required/></td>
+    </tr>
+    <tr>
+      <th scope="row" align="left">Age</th>
+      <td><label for="textfield2"></label>
+      <input type="text" name="age" id="textfield2" class="form-control" required/></td>
+    </tr>
+    <tr>
+      <th scope="row" align="left">Gender</th>
+      <td><input type="radio" name="gender" id="radio" value="male" />
+      <label for="radio">Male
+        <input type="radio" name="gender" id="radio2" value="female" />
+      Female</label></td>
+    </tr>
+    <tr>
+      <th scope="row" align="left">Place</th>
+      <td><label for="textfield3"></label>
+      <input type="text" name="place" id="textfield3" class="form-control" required/></td>
+    </tr>
+    <tr>
+      <th scope="row" align="left">Post</th>
+      <td><label for="textfield4"></label>
+      <input type="text" name="post" id="textfield4" class="form-control" required/></td>
+    </tr>
+    <tr>
+      <th scope="row" align="left">Pin</th>
+      <td><label for="textfield5"></label>
+      <input type="text" name="pin" id="textfield5" class="form-control" required/></td>
+    </tr>
+    <tr>
+      <th scope="row" align="left">District</th>
+      <td><label for="select"></label>
+        <select name="district" id="select" class="form-control">
+          <option>--Select--</option>
+          <option>Trivandrum</option>
+          <option>Kollam</option>
+          <option>Pathanamthitta</option>
+          <option>Alappuzha</option>
+          <option>Kottayam</option>
+          <option>Idukki</option>
+          <option>Eranakulam</option>
+          <option>Thrissur</option>
+          <option>Palakkad</option>
+          <option>Malappuram</option>
+          <option>Kozhikode</option>
+          <option>Wayanad</option>
+          <option>Kannur</option>
+          <option>Kasaragod</option>
+      </select></td>
+    </tr>
+    <tr>
+      <th scope="row" align="left">Phone</th>
+      <td><label for="textfield6"></label>
+      <input type="text" name="phone" id="textfield6" class="form-control" required/></td>
+    </tr>
+    <tr>
+      <th scope="row" align="left">Email</th>
+      <td><label for="textfield7"></label>
+      <input type="text" name="email" id="textfield7" class="form-control" required/></td>
+    </tr>
+    <tr>
+      <th scope="row" align="left">Qualification</th>
+      <td><label for="textfield8"></label>
+      <input type="text" name="qualification" id="textfield8" class="form-control" required/></td>
+    </tr>
+    <tr>
+      <th scope="row" align="left">Photo</th>
+      <td><label for="textfield9"></label>
+      <input type="file" name="photo" id="fileField" class="form-control" required/></td>
+    </tr>
+    <tr>
+      <th scope="row" align="left">Ward</th>
+      <td><label for="textfield8"></label>
+      <input type="number" name="ward" id="ward" min="1" max="50" class="form-control" required/></td>
+    </tr>
+{#    <tr>#}
+{#      <th scope="row" align="left">Ward</th>#}
+{#      <td><label for="select"></label>#}
+{#        <select name="ward" id="select">#}
+{#          <option>1</option>#}
+{#          <option>2</option>#}
+{#          <option>3</option>#}
+{#          <option>4</option>#}
+{#          <option>5</option>#}
+{#          <option>6</option>#}
+{#          <option>7</option>#}
+{#          <option>8</option>#}
+{#          <option>9</option>#}
+{#          <option>10</option>#}
+{#          <option>11</option>#}
+{#          <option>12</option>#}
+{#          <option>13</option>#}
+{#          <option>14</option>#}
+{#          <option>15</option>#}
+{#          <option>16</option>#}
+{#          <option>17</option>#}
+{#          <option>18</option>#}
+{#          <option>19</option>#}
+{#          <option>20</option>#}
+{#          <option>21</option>#}
+{#          <option>22</option>#}
+{#          <option>23</option>#}
+{#      </select></td>#}
+{#    </tr>#}
+    <tr>
+        <th colspan="2" scope="row"><p align="center"> <input type="submit" name="button" id="button" value="Submit" class="btn btn-primary" /></p></th>
+    </tr>
+  </table>
+</form>
+        </div>
+</center>
+</body>
+{% endblock %}

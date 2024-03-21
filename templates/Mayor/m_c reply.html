@@ -1,0 +1,21 @@
+{% extends "Mayor/mayor_header.html"  %}
+{% block body %}
+
+<body>
+<form id="form1" name="form1" method="post" action="/chat_mc1/{{ value['co_id'] }}">
+{#    <h1>{{ value['c_name'] }}</h1>#}
+  <table align="center" >
+    <tr>
+      <td>Message</td>
+      <td><label for="textfield"></label>
+      <input type="text" name="textfield" id="textfield" required class="form-control"/></td>
+    </tr>
+    <tr>
+      <td colspan="2"><div align="center">
+        <input type="submit" name="button" id="button" value="Send" class="btn btn-primary" />
+      </div></td>
+    </tr>
+  </table>
+</form>
+</body>
+{% endblock %}

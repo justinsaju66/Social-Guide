@@ -1,0 +1,100 @@
+{% extends 'Admin/adminheader.html' %}
+{% block body %}
+
+<body>
+<center><div class="container">
+<form id="form1" name="form1" enctype="multipart/form-data" method="post" action="/edit_councillor1/{{ value['L_id'] }}">
+  <table align="center" width="200" border="0">
+    <tr>
+      <th scope="row" align="left">Name</th>
+      <td><label for="textfield"></label>
+      <input type="text" name="name" id="textfield" value="{{ value['c_name'] }}" class="form-control" required/></td>
+    </tr>
+    <tr>
+      <th scope="row" align="left">Age</th>
+      <td><label for="textfield2"></label>
+      <input type="text" name="age" id="textfield2" value="{{ value['age'] }}" class="form-control" required/></td>
+    </tr>
+    <tr>
+      <th scope="row" align="left">Gender</th>
+      <td><input type="radio" name="gender" id="radio" value="male" {% if value['gender']=="male" %}checked {% endif %} />
+      <label for="radio">Male
+        <input type="radio" name="gender" id="radio2" value="female" {% if value['gender']=="female" %}checked{% endif %}  />
+      Female</label></td>
+    </tr>
+    <tr>
+      <th scope="row" align="left">Place</th>
+      <td><label for="textfield3"></label>
+      <input type="text" name="place" id="textfield3" value="{{ value['place'] }}" class="form-control" required/></td>
+    </tr>
+    <tr>
+      <th scope="row">Post</th>
+      <td><label for="textfield4"></label>
+      <input type="text" name="post" id="textfield4" value="{{ value['post'] }}" class="form-control" required/></td>
+    </tr>
+    <tr>
+      <th scope="row" align="left">Pin</th>
+      <td><label for="textfield5"></label>
+      <input type="text" name="pin" id="textfield5" value="{{ value['pin'] }}" class="form-control" required/></td>
+    </tr>
+    <tr>
+      <th scope="row" align="left">District</th>
+      <td><label for="select"></label>
+        <select name="district" id="select" class="form-control">
+          <option {% if value['district']=="Trivandrum" %} selected {% endif %}>Trivandrum</option>
+          <option {% if value['district']=="Kollam" %} selected {% endif %}>Kollam</option>
+          <option {% if value['district']=="Pathanamthitta" %} selected {% endif %}>Pathanamthitta</option>
+          <option {% if value['district']=="Alappuzha" %} selected {% endif %}>Alappuzha</option>
+          <option {% if value['district']=="Kottayam" %} selected {% endif %}>Kottayam</option>
+          <option {% if value['district']=="Idukki" %} selected {% endif %}>Idukki</option>
+          <option {% if value['district']=="Eranakulam" %} selected {% endif %}>Eranakulam</option>
+          <option {% if value['district']=="Thrissur" %} selected {% endif %}>Thrissur</option>
+          <option {% if value['district']=="Palakkad" %} selected {% endif %}>Palakkad</option>
+          <option {% if value['district']=="Malappuram" %} selected {% endif %}>Malappuram</option>
+          <option {% if value['district']=="Kozhikode" %} selected {% endif %}>Kozhikode</option>
+          <option {% if value['district']=="Wayanad" %} selected {% endif %}>Wayanad</option>
+          <option {% if value['district']=="Kannur" %} selected {% endif %}>Kannur</option>
+          <option {% if value['district']=="Kasaragod" %} selected {% endif %}>Kasaragod</option>
+      </select></td>
+    </tr>
+    <tr>
+      <th scope="row" align="left">Phone</th>
+      <td><label for="textfield6"></label>
+      <input type="text" name="phone" id="textfield6" value="{{ value['phone'] }}" class="form-control" required/></td>
+    </tr>
+    <tr>
+      <th scope="row" align="left">Email</th>
+      <td><label for="textfield7"></label>
+      <input type="text" name="email" id="textfield7" value="{{ value['email'] }}" class="form-control" required/></td>
+    </tr>
+    <tr>
+      <th scope="row" align="left">Qualification</th>
+      <td><label for="textfield8"></label>
+      <input type="text" name="qualification" id="textfield8" value="{{ value['qualification'] }}" class="form-control" required/></td>
+    </tr>
+    <tr>
+      <th scope="row" align="left">Photo</th>
+      <td><label for="textfield9"></label>
+      <input type="file" name="photo" id="fileField" class="form-control"/> <img src="{{ value['photo'] }}" width="50" height="50"/></td>
+    </tr>
+    <tr>
+      <th scope="row" align="left">Ward</th>
+      <td><label for="select"></label>
+        <select name="ward" id="select" class="form-control">
+          <option {% if value['ward']=="1" %} selected {% endif %}>1</option>
+          <option {% if value['ward']=="2" %} selected {% endif %}>2</option>
+          <option {% if value['ward']=="3" %} selected {% endif %}>3</option>
+          <option {% if value['ward']=="4" %} selected {% endif %}>4</option>
+          <option {% if value['ward']=="5" %} selected {% endif %}>5</option>
+          <option {% if value['ward']=="6" %} selected {% endif %}>6</option>
+      </select></td>
+    </tr>
+    <tr>
+        <th colspan="2" scope="row"><p align="center"> <input type="submit" name="button" id="button" value="UPDATE" class="btn btn-primary"/></p></th>
+    </tr>
+  </table>
+</form>
+</div>
+</center>
+</body>
+{% endblock %}

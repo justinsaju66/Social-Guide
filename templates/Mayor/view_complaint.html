@@ -1,0 +1,27 @@
+{% extends "Mayor/mayor_header.html"  %}
+{% block body %}
+
+<body>
+<form id="form1" name="form1" method="post" action="">
+  <table align="center" class="table table-striped" border="3">
+    <tr>
+      <th scope="col">Sl.No</th>
+      <th scope="col">Councillor</th>
+      <th scope="col">Complaint</th>
+      <th scope="col">Reply</th>
+    </tr>
+      {% for i in value %}
+       <td>&nbsp;{{ loop.index }}</td>
+      <td>{{ i['c_name'] }}</td>
+      <td>&nbsp;{{ i['complaint'] }}</td>
+       {%  if i['reply']=="pending" %}
+      <td><a href="/send_reply/{{ i['c_id'] }}">Reply</a></td>
+      {%  else %}
+    <td>{{ i['reply'] }}<br> {{ i['reply_date'] }}</td>
+    {% endif %}
+    </tr>
+      {% endfor %}
+  </table>
+</form>
+</body>
+{% endblock %}

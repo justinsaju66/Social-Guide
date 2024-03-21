@@ -1,0 +1,54 @@
+{% extends "Mayor/mayor_header.html"  %}
+{% block body %}
+
+<body>
+<form id="form1" name="form1" method="post" action="">
+  <table align="center" >
+    <tr>
+        <th colspan="2" scope="row" ><input type="image" name="image" id="image"  src="{{ value['photo'] }}" width="200" height="200"/> </th>
+    </tr>
+    <tr>
+      <th width="150" scope="row" align="left">Name</th>
+      <td width="80" height="40"> {{ value['M_name'] }} </td>
+    </tr>
+    <tr>
+      <th scope="row" align="left">Age</th>
+      <td width="80" height="30"> {{ value['age'] }}</td>
+    </tr>
+    <tr>
+      <th scope="row" align="left">Gender</th>
+      <td width="80" height="30"> {{ value['gender'] }}</td>
+    </tr>
+    <tr>
+     <th scope="row" align="left">Place</th>
+      <td width="80" height="30"> {{ value['place'] }}</td>
+    </tr>
+    <tr>
+     <th scope="row" align="left">Post</th>
+      <td width="80" height="30"> {{ value['post'] }}</td>
+    </tr>
+    <tr>
+     <th scope="row" align="left">Pin</th>
+      <td width="80" height="30"> {{ value['pin'] }}</td>
+    </tr>
+    <tr>
+     <th scope="row" align="left">District</th>
+      <td width="80" height="30"> {{ value['district'] }}</td>
+    </tr>
+    <tr>
+     <th scope="row" align="left">Phone</th>
+      <td width="80" height="30"> {{ value['phone'] }}</td>
+    </tr>
+    <tr>
+     <th scope="row" align="left">Email</th>
+      <td width="80" height="30"> {{ value['email'] }}</td>
+    </tr>
+    <tr>
+    <th scope="row" align="left">Joining Date</th>
+      <td width="80" height="30"> {{ value['joining_date'] }}</td>
+    </tr>
+   
+  </table>
+</form>
+</body>
+{% endblock %}

@@ -1,0 +1,57 @@
+{% extends 'clerk/clerkheader.html' %}
+{% block body %}
+
+<body>
+<form action="" method="post" enctype="multipart/form-data" name="form1" id="form1">
+  <table align="center" cellpadding="5" >
+     <tr>
+        <th colspan="2" scope="row" ><input type="image" name="image" id="image"  src="{{ value['photo'] }}" width="200" height="200"/> </th>
+    </tr>
+    <tr>
+      <th scope="row" align="left">Name</th>
+      <td>{{ value['name'] }}</td>
+    </tr>
+    <tr>
+      <th scope="row" align="left">Age</th>
+      <td>{{ value['age'] }}</td>
+    </tr>
+    <tr>
+      <th scope="row" align="left">Gender</th>
+        <td>{{ value['gender'] }}</td>
+    </tr>
+    <tr>
+      <th scope="row" align="left">Place</th>
+      <td>{{ value['place'] }}</td>
+    </tr>
+    <tr>
+      <th scope="row" align="left">Post</th>
+      <td>{{ value['post'] }}</td>
+    </tr>
+    <tr>
+      <th scope="row"align="left">Pin</th>
+      <td>{{ value['pin'] }}</td>
+    </tr>
+    <tr>
+      <th scope="row" align="left">District</th>
+      <td>{{ value['district'] }}</td>
+    </tr>
+    <tr>
+      <th scope="row" align="left">Phone</th>
+      <td>{{ value['phone'] }}</td>
+    </tr>
+    <tr>
+      <th scope="row"align="left">Email</th>
+      <td>{{ value['email'] }}</td>
+    </tr>
+    <tr>
+      <th scope="row"align="left">Qualification</th>
+      <td>{{ value['qualification'] }}</td>
+    </tr>
+     <tr>
+      <th scope="row" align="left">Department</th>
+      <td>{{ value['department'] }}</td>
+    </tr>
+  </table>
+</form>
+</body>
+{% endblock %}

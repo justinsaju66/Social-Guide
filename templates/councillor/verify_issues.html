@@ -1,0 +1,47 @@
+{% extends 'councillor/councillorheader.html'%}
+{% block body %}
+
+<body>
+<form id="form1" name="form1" method="post" action="">
+    <div align="center"><h3>Frequent Issues</h3></div>
+      <table align="center" class="table table-striped" border="1">
+    <tr>
+      <th scope="col">Sl.No</th>
+      <th scope="col">Issue</th>
+    </tr>
+      {% for i in fqi %}
+    <tr>
+      <td>&nbsp;{{ loop.index }}</td>
+      <td>&nbsp;{{ i}}</td>
+
+{#      <td><p><a href="#">Approve</a></p>#}
+{#      <p><a href="#">Reject</a></p></td>#}
+    </tr>
+      {% endfor %}
+  </table>
+<div align="center"><h4>Frequent words: {{ fqw }}</h4></div>
+<br/>
+
+<div align="center"><h3>Detailed Data</h3></div>
+
+  <table align="center" class="table table-striped" border="1">
+    <tr>
+      <th scope="col">Sl.No</th>
+      <th scope="col">User</th>
+      <th scope="col">Issue</th>
+      <th scope="col">Date</th>
+    </tr>
+      {% for i in value %}
+    <tr>
+      <td>&nbsp;{{ loop.index }}</td>
+      <td>&nbsp;{{ i['user_name'] }}</td>
+      <td>&nbsp;{{ i['issues'] }}</td>
+      <td>&nbsp;{{ i['date'] }}</td>
+    </tr>
+{#      <td><p><a href="#">Approve</a></p>#}
+{#      <p><a href="#">Reject</a></p></td>#}
+      {% endfor %}
+  </table>
+</form>
+</body>
+{% endblock %}

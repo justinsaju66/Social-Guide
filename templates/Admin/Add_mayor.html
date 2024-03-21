@@ -1,0 +1,91 @@
+{% extends 'Admin/adminheader.html' %}
+{% block body %}
+
+<body>
+<center>
+    <div class="container">
+<form id="form1" name="form1" enctype="multipart/form-data" method="post" action="/add_mayor1">
+  <table align="center" cellpadding="3" >
+    <tr>
+      <th scope="row" align="left">Name</th>
+      <td><label for="textfield"></label>
+      <input type="text" name="name" id="textfield" class="form-control" required/></td>
+    </tr>
+    <tr>
+      <th scope="row" align="left">Age</th>
+      <td><label for="textfield2"></label>
+      <input type="text" name="age" id="textfield2"  class="form-control" required/></td>
+    </tr>
+    <tr>
+      <th scope="row" align="left">Gender</th>
+      <td><input type="radio" name="gender" id="radio" value="male" />
+      <label for="radio">Male
+        <input type="radio" name="gender" id="radio2" value="female" />
+      Female</label></td>
+    </tr>
+    <tr>
+      <th scope="row" align="left">Place</th>
+      <td><label for="textfield3"></label>
+      <input type="text" name="place" id="textfield3" class="form-control" required /></td>
+    </tr>
+    <tr>
+      <th scope="row" align="left">Post</th>
+      <td><label for="textfield4"></label>
+      <input type="text" name="post" id="textfield4" class="form-control" required/></td>
+    </tr>
+    <tr>
+      <th scope="row" align="left">Pin</th>
+      <td><label for="textfield5"></label>
+      <input type="text" name="pin" id="textfield5" class="form-control" required/></td>
+    </tr>
+    <tr>
+      <th scope="row" align="left">District</th>
+      <td><label for="select"></label>
+        <select name="district" id="select" class="form-control">
+          <option>--Select--</option>
+          <option>Trivandrum</option>
+          <option>Kollam</option>
+          <option>Pathanamthitta</option>
+          <option>Alappuzha</option>
+          <option>Kottayam</option>
+          <option>Idukki</option>
+          <option>Eranakulam</option>
+          <option>Thrissur</option>
+          <option>Palakkad</option>
+          <option>Malappuram</option>
+          <option>Kozhikode</option>
+          <option>Wayanad</option>
+          <option>Kannur</option>
+          <option>Kasaragod</option>
+      </select></td>
+    </tr>
+    <tr>
+      <th scope="row" align="left">Phone</th>
+      <td><label for="textfield6"></label>
+      <input type="text" name="phone" id="textfield6" class="form-control" required/></td>
+    </tr>
+    <tr>
+      <th scope="row" align="left">Email</th>
+      <td><label for="textfield7"></label>
+      <input type="text" name="email" id="textfield7" class="form-control" required/></td>
+    </tr>
+    <tr>
+      <th scope="row" align="left">Joining Date</th>
+      <td><label for="textfield8"></label>
+      <input type="text" name="joining_date" id="textfield8" class="form-control" required/></td>
+    </tr>
+    <tr>
+      <th scope="row" align="left">Photo</th>
+      <td><label for="textfield9"></label>
+      <input type="file" name="photo" id="fileField"  class="form-control" required/></td>
+    </tr>
+
+    <tr>
+        <th colspan="2" scope="row"><p align="center"><input type="submit" name="button" id="button" value="Submit"  class="btn btn-primary"/></p></th>
+    </tr>
+  </table>
+</form>
+        </div>
+</center>
+</body>
+{% endblock %}

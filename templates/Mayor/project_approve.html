@@ -1,0 +1,27 @@
+{% extends "Mayor/mayor_header.html"  %}
+{% block body %}
+
+<body>
+<form id="form1" name="form1" method="post" action="">
+  <table align="center" class="table table-striped" border="3">
+    <tr>
+      <th scope="col">Sl.No</th>
+      <th scope="col">Councillor</th>
+      <th scope="col">Project</th>
+      <th scope="col">Date</th>
+      <th scope="col">&nbsp;</th>
+    </tr>
+      {% for i in value %}
+    <tr>
+      <td>&nbsp;{{ loop.index}} </td>
+      <td>&nbsp;{{ i['c_name'] }}</td>
+      <td>&nbsp;{{ i['project'] }}</td>
+      <td>&nbsp;{{ i['date'] }}</td>
+      <td><p><a href="/accept_project/{{ i['project_id'] }}" onclick="return confirm('Are you want to Approve?')">Approve</a></p>
+      <p><a href="/reject_project/{{ i['project_id'] }}" onclick="return confirm('Are you want to Reject?')">Reject</a></p></td>
+    </tr>
+      {% endfor %}
+  </table>
+</form>
+</body>
+{% endblock %}

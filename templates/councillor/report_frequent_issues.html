@@ -1,0 +1,18 @@
+{% extends 'councillor/councillorheader.html'%}
+{% block body %}
+
+<body>
+<form id="form1" name="form1" method="post" action="">
+  <table>
+    <tr>
+      <th scope="row">Issues</th>
+      <td>
+      <textarea name="textarea" id="textarea" cols="45" rows="5" required class="form-control"></textarea></td>
+    </tr>
+    <tr>
+      <th colspan="2" scope="row"><input type="submit" name="button" id="button" value="Send" class="btn btn-primary"/></th>
+    </tr>
+  </table>
+</form>
+</body>
+{% endblock %}
